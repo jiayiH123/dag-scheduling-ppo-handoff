@@ -15,8 +15,8 @@
     },
     {
       "path": "README.md",
-      "bytes": 11249,
-      "sha256": "f5cd370bfa7749654b9a81c450d35eaef202f0a867abf3cad825f3f1049cc885"
+      "bytes": 11529,
+      "sha256": "b533552fdfdbb1eaa661db8e90780f22db345360c2680af52cf5cbfccd816412"
     },
     {
       "path": "configs/faithful_external_20261102.json",
@@ -749,6 +749,16 @@
       "sha256": "8f8af0ab34f1a2ec9a627f2d2e4f9a1e8214264ecb73c6139e310f4781c294be"
     },
     {
+      "path": "evidence/ADAPTED_BASELINE_CHECKS.json",
+      "bytes": 334,
+      "sha256": "4d956c49d6bb3f60af6fcbea155b00878be03abf72e4729993654ee1da8a8849"
+    },
+    {
+      "path": "evidence/ADAPTED_BASELINE_WEIGHTS.json",
+      "bytes": 2339,
+      "sha256": "05df4f5fa209b1b24380e0adc5c6e4cad824f15edd5747367593cc82b770dc18"
+    },
+    {
       "path": "evidence/BASELINE_PORTABLE_CHECKS.json",
       "bytes": 4522,
       "sha256": "d1c596081954849da580e87eb6562d3ef45cf94cd8a8b4ab20356e291ba2b63b"
@@ -909,6 +919,11 @@
       "sha256": "a98d2f0e2423efc2b06fdc6ddfcfaaa31170529695fbb76417cdb20fe0f52175"
     },
     {
+      "path": "runs/external_baselines_budget_visible_20261028/cai/epoch1.pt",
+      "bytes": 33769,
+      "sha256": "d137d20778767caa50377dd3c41a747896f9da3021a2be8dc32d35a574762b1c"
+    },
+    {
       "path": "runs/external_baselines_budget_visible_20261028/cai/epoch1_cases.jsonl",
       "bytes": 1042449,
       "sha256": "d1e3c568b156ad0923a2bd3649cbc45a8f784add1c85c400536ef1d14a3a4a24"
@@ -917,6 +932,21 @@
       "path": "runs/external_baselines_budget_visible_20261028/cai/epoch7_cases.jsonl",
       "bytes": 1042459,
       "sha256": "2bf14c49bf4baf63d9c980c48a3c9a9657c22882dff60eb36baaabbcce4b35c1"
+    },
+    {
+      "path": "runs/external_baselines_budget_visible_20261028/cai/history.json",
+      "bytes": 16284,
+      "sha256": "777777b4a7b9a1412d0b2bc512e1413d4305af6975f9f69e143bb81d58c24a1c"
+    },
+    {
+      "path": "runs/external_baselines_budget_visible_20261028/cai/metadata.json",
+      "bytes": 12615,
+      "sha256": "733363515504e6a165fa1c7fa1467dfd494a02d8cd36889891fe665edf14394d"
+    },
+    {
+      "path": "runs/external_baselines_budget_visible_20261028/cai/summary.json",
+      "bytes": 18716,
+      "sha256": "49c168ec28508fee0263174ca63e45e6c35f3dc039c1eb6c172f083b48d3e5e8"
     },
     {
       "path": "runs/external_baselines_budget_visible_20261028/cai_sparse/epoch1_cases.jsonl",
@@ -929,9 +959,49 @@
       "sha256": "5874b78fe18166dd8f2331f627a2c10ef92cf2918ac40ea3e9afef908ed0c866"
     },
     {
+      "path": "runs/external_baselines_budget_visible_20261028/giph_fast_r1/final.pt",
+      "bytes": 57298,
+      "sha256": "70f806802d897f67cc781f6b94dedaf0e8a851180ce8774d7b4c5d5d854fffa1"
+    },
+    {
+      "path": "runs/external_baselines_budget_visible_20261028/giph_fast_r1/metadata.json",
+      "bytes": 12616,
+      "sha256": "a50f8a547e1c33edb765e4ae1e67a8d10b97da1d8446ae0bf554a368cdeef084"
+    },
+    {
+      "path": "runs/external_baselines_budget_visible_20261028/giph_fast_r1/summary.json",
+      "bytes": 13473,
+      "sha256": "37b303aeed6d1ffca56e9c6ef03edeedec6da4fd72d5dcb546e9da42c4087ff5"
+    },
+    {
+      "path": "runs/external_baselines_budget_visible_20261028/giph_fast_r1/training_summary.json",
+      "bytes": 255,
+      "sha256": "67a39fd476e4ea39250959437e1c8d368a8082bb6c7612516cb90c28336ff1a3"
+    },
+    {
+      "path": "runs/external_baselines_budget_visible_20261028/graphormer/epoch7.pt",
+      "bytes": 2125618,
+      "sha256": "45be27802bb2b0baef35b13cc99a1a5059e8d18337a1887601245eac510d6e99"
+    },
+    {
       "path": "runs/external_baselines_budget_visible_20261028/graphormer/epoch7_cases.jsonl",
       "bytes": 1051772,
       "sha256": "aca9fae5dbe976903646acf370cf50aaa0c8223d6c159874d20f0fdeca1dff71"
+    },
+    {
+      "path": "runs/external_baselines_budget_visible_20261028/graphormer/history.json",
+      "bytes": 16298,
+      "sha256": "68672c27683eaf62d9c529ffff0af0604070e457760221273fe07a4b534eabbf"
+    },
+    {
+      "path": "runs/external_baselines_budget_visible_20261028/graphormer/metadata.json",
+      "bytes": 12622,
+      "sha256": "5defd86ad39038029095d123263c672d9656fbf361f316b791183ca8fb649aab"
+    },
+    {
+      "path": "runs/external_baselines_budget_visible_20261028/graphormer/summary.json",
+      "bytes": 18747,
+      "sha256": "685f4594e777611072e1068d1f945bdbc469175566550e527573eff9dc35f19f"
     },
     {
       "path": "runs/faithful_external_20261102/GIPH_CANCELED_WORK_ACCOUNTING.json",
@@ -3804,6 +3874,11 @@
       "sha256": "6102f23d553e3d4e9f6f4eeafc8d5cf3f202efaa825acc5059a2896a67a6d307"
     },
     {
+      "path": "scripts/check_giph_fast.py",
+      "bytes": 2632,
+      "sha256": "b0aba0daa8f7074afc85b11a87c5227dbebbab9ff9b7720d83eec5f9b21da45a"
+    },
+    {
       "path": "scripts/evaluate_public_lr.py",
       "bytes": 17196,
       "sha256": "cb7c977d4894f42eafa477b1593b6868cccc7fc157ea45315d3ed3e0f9a84ab2"
@@ -3819,6 +3894,11 @@
       "sha256": "45f72a14e12a36a2415d35fd5e1c18a0941eafa1d5f3c526eea7ebd643052387"
     },
     {
+      "path": "scripts/plot_budget_visible_baselines.py",
+      "bytes": 4368,
+      "sha256": "ee4cb7ce1a4cf91984cdaff3a860d54fca465a2292f8e89a6b5ae53f62f2eb45"
+    },
+    {
       "path": "scripts/report_faithful_external_20261102.py",
       "bytes": 10403,
       "sha256": "e0ebdc15d0a9a4117ccc989410aad2ee262ffc17227ba11a3995ee0da966d4fe"
@@ -3827,6 +3907,11 @@
       "path": "scripts/report_giph_paper200_20261102.py",
       "bytes": 6783,
       "sha256": "bd0749dc2594d4efe71bb114d55ec65d634d3ddc09c1dcf895307fb6e5703aea"
+    },
+    {
+      "path": "scripts/run_budget_visible_baselines.py",
+      "bytes": 18235,
+      "sha256": "391269001736e14953d35a7d8c72086587ad702373086e962aba0b2718d3f33f"
     },
     {
       "path": "scripts/run_external_baselines.py",
@@ -4309,6 +4394,11 @@
       "sha256": "1fbea8ec6b0dd455759e1c5413a75a8fd3f9dd68f93648f846259fa6d87ff82a"
     },
     {
+      "path": "tools/evaluate_adapted_baseline.py",
+      "bytes": 3288,
+      "sha256": "86e89347371e3f340a8c7fb06d7f22aad1a1c02607080f336642376799c07926"
+    },
+    {
       "path": "tools/export_from_workspace.py",
       "bytes": 10080,
       "sha256": "5e3ea3d0356c6919423883a3d0105a1507783119f9c4d8a60a1403e7a6e3f4a7"
@@ -4459,8 +4549,8 @@
       "sha256": "9fc9976de15345d6b6f4fdf4913bb11467844cf0e2dba4d5edaa2f07d3d64340"
     }
   ],
-  "file_count": 891,
-  "total_bytes": 216560156,
+  "file_count": 909,
+  "total_bytes": 218929943,
   "largest_file_bytes": 16482012,
   "credential_scan": "PASS; no known token/private-key patterns or credential files",
   "excludes_runtime_SQLite_and_host_dependencies": true,

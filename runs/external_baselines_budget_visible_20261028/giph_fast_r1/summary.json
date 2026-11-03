@@ -1,0 +1,381 @@
+{
+  "status": "complete",
+  "panels": {
+    "synthetic": {
+      "configs": 862,
+      "methods": {
+        "GiPH_random_16": {
+          "C_HEFT": 1.3289706873493856,
+          "family_macro_C_HEFT": 1.332049797962283,
+          "family_C_HEFT": {
+            "aggregation": 1.167734248040902,
+            "chain_side": 1.5691083425735965,
+            "cross": 1.2677645189157203,
+            "forkjoin": 1.3792033852882208,
+            "layered": 1.2764384949929737
+          },
+          "C_Teacher": 1.6285150361452574,
+          "wins_HEFT": 344,
+          "ties_HEFT": 9,
+          "losses_HEFT": 509,
+          "mean_C_GNN": 1.57460676154191
+        },
+        "GiPH_random_64": {
+          "C_HEFT": 1.1365656263261446,
+          "family_macro_C_HEFT": 1.1389675212302688,
+          "family_C_HEFT": {
+            "aggregation": 0.9995645387390018,
+            "chain_side": 1.3438057514922748,
+            "cross": 1.1078459899589166,
+            "forkjoin": 1.2185445274656175,
+            "layered": 1.025076798495533
+          },
+          "C_Teacher": 1.4021110987672931,
+          "wins_HEFT": 402,
+          "ties_HEFT": 23,
+          "losses_HEFT": 437,
+          "mean_C_GNN": 1.3548536376450018
+        },
+        "GiPH_random_2n": {
+          "C_HEFT": 1.1329443667032992,
+          "family_macro_C_HEFT": 1.135307911934681,
+          "family_C_HEFT": {
+            "aggregation": 0.9979513832930426,
+            "chain_side": 1.3386093447647736,
+            "cross": 1.1062020176914764,
+            "forkjoin": 1.2140918973644674,
+            "layered": 1.0196849165596436
+          },
+          "C_Teacher": 1.3980039506564976,
+          "wins_HEFT": 404,
+          "ties_HEFT": 23,
+          "losses_HEFT": 435,
+          "mean_C_GNN": 1.3508811573639086
+        },
+        "GiPH_HEFT_16": {
+          "C_HEFT": 0.929120645822285,
+          "family_macro_C_HEFT": 0.929449503680498,
+          "family_C_HEFT": {
+            "aggregation": 0.9114977286979266,
+            "chain_side": 0.9599656200865225,
+            "cross": 0.9253955940559812,
+            "forkjoin": 0.9396617610858615,
+            "layered": 0.9107268144761976
+          },
+          "C_Teacher": 1.2003703201996743,
+          "wins_HEFT": 464,
+          "ties_HEFT": 398,
+          "losses_HEFT": 0,
+          "mean_C_GNN": 1.1570959323156234
+        },
+        "GiPH_HEFT_64": {
+          "C_HEFT": 0.9124804749681094,
+          "family_macro_C_HEFT": 0.91294790750405,
+          "family_C_HEFT": {
+            "aggregation": 0.8925558118279905,
+            "chain_side": 0.9561288860883097,
+            "cross": 0.8957927154389628,
+            "forkjoin": 0.932498852387043,
+            "layered": 0.8877632717779433
+          },
+          "C_Teacher": 1.1629944653277056,
+          "wins_HEFT": 473,
+          "ties_HEFT": 389,
+          "losses_HEFT": 0,
+          "mean_C_GNN": 1.1214339926956622
+        },
+        "GiPH_HEFT_2n": {
+          "C_HEFT": 0.9113217775336586,
+          "family_macro_C_HEFT": 0.9117989711038519,
+          "family_C_HEFT": {
+            "aggregation": 0.8918454609759818,
+            "chain_side": 0.956126522453552,
+            "cross": 0.8926703407834126,
+            "forkjoin": 0.932396016426458,
+            "layered": 0.8859565148798549
+          },
+          "C_Teacher": 1.160234003320093,
+          "wins_HEFT": 473,
+          "ties_HEFT": 389,
+          "losses_HEFT": 0,
+          "mean_C_GNN": 1.1187895031789696
+        },
+        "GiPH_initial_HEFT16": {
+          "C_HEFT": 0.9907295425814835,
+          "family_macro_C_HEFT": 0.9908300565526907,
+          "family_C_HEFT": {
+            "aggregation": 0.9836835400144027,
+            "chain_side": 0.9969882116262428,
+            "cross": 0.9885467329950828,
+            "forkjoin": 0.9976924784257915,
+            "layered": 0.9872393197019338
+          },
+          "C_Teacher": 1.3324598010785704,
+          "wins_HEFT": 140,
+          "ties_HEFT": 722,
+          "losses_HEFT": 0,
+          "mean_C_GNN": 1.2701977529683575
+        }
+      }
+    },
+    "tpch_composite": {
+      "configs": 800,
+      "methods": {
+        "GiPH_random_16": {
+          "C_HEFT": 1.0921055742926589,
+          "family_macro_C_HEFT": 1.0921055742926589,
+          "family_C_HEFT": {
+            "tpch_composite": 1.0921055742926589
+          },
+          "C_Teacher": 1.6547584164217932,
+          "wins_HEFT": 344,
+          "ties_HEFT": 2,
+          "losses_HEFT": 454,
+          "mean_C_GNN": 1.5079260348938754
+        },
+        "GiPH_random_64": {
+          "C_HEFT": 1.0587498409660758,
+          "family_macro_C_HEFT": 1.0587498409660758,
+          "family_C_HEFT": {
+            "tpch_composite": 1.0587498409660758
+          },
+          "C_Teacher": 1.6126582639477791,
+          "wins_HEFT": 370,
+          "ties_HEFT": 2,
+          "losses_HEFT": 428,
+          "mean_C_GNN": 1.4716455848172918
+        },
+        "GiPH_random_2n": {
+          "C_HEFT": 1.0586627136899955,
+          "family_macro_C_HEFT": 1.0586627136899955,
+          "family_C_HEFT": {
+            "tpch_composite": 1.0586627136899955
+          },
+          "C_Teacher": 1.61256958689175,
+          "wins_HEFT": 370,
+          "ties_HEFT": 2,
+          "losses_HEFT": 428,
+          "mean_C_GNN": 1.4715616542427283
+        },
+        "GiPH_HEFT_16": {
+          "C_HEFT": 0.9908115764104948,
+          "family_macro_C_HEFT": 0.9908115764104948,
+          "family_C_HEFT": {
+            "tpch_composite": 0.9908115764104948
+          },
+          "C_Teacher": 1.5710738116945617,
+          "wins_HEFT": 280,
+          "ties_HEFT": 520,
+          "losses_HEFT": 0,
+          "mean_C_GNN": 1.4241003533163694
+        },
+        "GiPH_HEFT_64": {
+          "C_HEFT": 0.9905280366978895,
+          "family_macro_C_HEFT": 0.9905280366978895,
+          "family_C_HEFT": {
+            "tpch_composite": 0.9905280366978895
+          },
+          "C_Teacher": 1.570615511532528,
+          "wins_HEFT": 286,
+          "ties_HEFT": 514,
+          "losses_HEFT": 0,
+          "mean_C_GNN": 1.4237319337553052
+        },
+        "GiPH_HEFT_2n": {
+          "C_HEFT": 0.9905280366978895,
+          "family_macro_C_HEFT": 0.9905280366978895,
+          "family_C_HEFT": {
+            "tpch_composite": 0.9905280366978895
+          },
+          "C_Teacher": 1.570615511532528,
+          "wins_HEFT": 286,
+          "ties_HEFT": 514,
+          "losses_HEFT": 0,
+          "mean_C_GNN": 1.4237319337553052
+        },
+        "GiPH_initial_HEFT16": {
+          "C_HEFT": 0.9876743956516152,
+          "family_macro_C_HEFT": 0.9876743956516152,
+          "family_C_HEFT": {
+            "tpch_composite": 0.9876743956516152
+          },
+          "C_Teacher": 1.5666880761887223,
+          "wins_HEFT": 136,
+          "ties_HEFT": 664,
+          "losses_HEFT": 0,
+          "mean_C_GNN": 1.4199753778041455
+        }
+      }
+    },
+    "wfinstances": {
+      "configs": 200,
+      "methods": {
+        "GiPH_random_16": {
+          "C_HEFT": 1.1931493054280293,
+          "family_macro_C_HEFT": 1.2386792932483928,
+          "family_C_HEFT": {
+            "nextflow/legacy": 1.122122977565638,
+            "pegasus/1000genome": 1.3843700858868107,
+            "pegasus/cycles": 1.184013706608629,
+            "pegasus/epigenomics": 1.0883606341058365,
+            "pegasus/montage": 1.4346538977844907,
+            "pegasus/soykb": 1.225532155961488,
+            "pegasus/srasearch": 1.1099983555310071,
+            "snakemake/RASflow": 1.6089819710753592,
+            "snakemake/rna-seq-star-deseq2": 1.3348513166600617,
+            "streamflow": 0.8939078313046074
+          },
+          "C_Teacher": 1.7065503234531614,
+          "wins_HEFT": 94,
+          "ties_HEFT": 1,
+          "losses_HEFT": 105,
+          "mean_C_GNN": 1.5516662523406775
+        },
+        "GiPH_random_64": {
+          "C_HEFT": 1.0950851804298132,
+          "family_macro_C_HEFT": 1.1394085372397096,
+          "family_C_HEFT": {
+            "nextflow/legacy": 1.1106686849218772,
+            "pegasus/1000genome": 1.0164663504754063,
+            "pegasus/cycles": 1.180175698609067,
+            "pegasus/epigenomics": 1.0039219011914653,
+            "pegasus/montage": 1.1253634364990233,
+            "pegasus/soykb": 1.2006245716737811,
+            "pegasus/srasearch": 1.0905702888463547,
+            "snakemake/RASflow": 1.5599601522670103,
+            "snakemake/rna-seq-star-deseq2": 1.2124264566085023,
+            "streamflow": 0.8939078313046074
+          },
+          "C_Teacher": 1.577056056572766,
+          "wins_HEFT": 107,
+          "ties_HEFT": 0,
+          "losses_HEFT": 93,
+          "mean_C_GNN": 1.4439039507833527
+        },
+        "GiPH_random_2n": {
+          "C_HEFT": 1.0883469992014914,
+          "family_macro_C_HEFT": 1.1350036959880085,
+          "family_C_HEFT": {
+            "nextflow/legacy": 1.1106686849218772,
+            "pegasus/1000genome": 0.9749976444117289,
+            "pegasus/cycles": 1.180175698609067,
+            "pegasus/epigenomics": 1.0039219011914653,
+            "pegasus/montage": 1.1232218900845008,
+            "pegasus/soykb": 1.2006245716737811,
+            "pegasus/srasearch": 1.0905702888463547,
+            "snakemake/RASflow": 1.5599601522670103,
+            "snakemake/rna-seq-star-deseq2": 1.211988296569693,
+            "streamflow": 0.8939078313046074
+          },
+          "C_Teacher": 1.5630140434559885,
+          "wins_HEFT": 108,
+          "ties_HEFT": 0,
+          "losses_HEFT": 92,
+          "mean_C_GNN": 1.4321750664039292
+        },
+        "GiPH_HEFT_16": {
+          "C_HEFT": 0.9910959425565479,
+          "family_macro_C_HEFT": 0.9867260008310936,
+          "family_C_HEFT": {
+            "nextflow/legacy": 0.9991855872556441,
+            "pegasus/1000genome": 0.9828582717584717,
+            "pegasus/cycles": 0.991617627931507,
+            "pegasus/epigenomics": 0.9918440291061073,
+            "pegasus/montage": 0.9675665680416308,
+            "pegasus/soykb": 0.9969833733552991,
+            "pegasus/srasearch": 0.9976322327621645,
+            "snakemake/RASflow": 0.9878300144570537,
+            "snakemake/rna-seq-star-deseq2": 0.9925742578477467,
+            "streamflow": 0.9591680457953102
+          },
+          "C_Teacher": 1.4730929659839753,
+          "wins_HEFT": 58,
+          "ties_HEFT": 142,
+          "losses_HEFT": 0,
+          "mean_C_GNN": 1.341484516577641
+        },
+        "GiPH_HEFT_64": {
+          "C_HEFT": 0.9754619973597439,
+          "family_macro_C_HEFT": 0.966372973564541,
+          "family_C_HEFT": {
+            "nextflow/legacy": 0.9991855872556441,
+            "pegasus/1000genome": 0.9275558640709431,
+            "pegasus/cycles": 0.9690292852136871,
+            "pegasus/epigenomics": 0.982847303827841,
+            "pegasus/montage": 0.9158378834869785,
+            "pegasus/soykb": 0.9969833733552991,
+            "pegasus/srasearch": 0.9972524901360031,
+            "snakemake/RASflow": 0.9439202035259125,
+            "snakemake/rna-seq-star-deseq2": 0.9721437210290429,
+            "streamflow": 0.9589740237440574
+          },
+          "C_Teacher": 1.4455523041369807,
+          "wins_HEFT": 62,
+          "ties_HEFT": 138,
+          "losses_HEFT": 0,
+          "mean_C_GNN": 1.317218286635875
+        },
+        "GiPH_HEFT_2n": {
+          "C_HEFT": 0.969201121054811,
+          "family_macro_C_HEFT": 0.9623373393621144,
+          "family_C_HEFT": {
+            "nextflow/legacy": 0.9991855872556441,
+            "pegasus/1000genome": 0.8888340088712576,
+            "pegasus/cycles": 0.9690292852136871,
+            "pegasus/epigenomics": 0.982847303827841,
+            "pegasus/montage": 0.914203396662399,
+            "pegasus/soykb": 0.9969833733552991,
+            "pegasus/srasearch": 0.9972524901360031,
+            "snakemake/RASflow": 0.9439202035259125,
+            "snakemake/rna-seq-star-deseq2": 0.9721437210290429,
+            "streamflow": 0.9589740237440574
+          },
+          "C_Teacher": 1.4309514815863176,
+          "wins_HEFT": 62,
+          "ties_HEFT": 138,
+          "losses_HEFT": 0,
+          "mean_C_GNN": 1.3056363231056916
+        },
+        "GiPH_initial_HEFT16": {
+          "C_HEFT": 0.9924380010353288,
+          "family_macro_C_HEFT": 0.9947862862150789,
+          "family_C_HEFT": {
+            "nextflow/legacy": 0.98887615541871,
+            "pegasus/1000genome": 0.9912279880896004,
+            "pegasus/cycles": 1.0,
+            "pegasus/epigenomics": 0.973582929313841,
+            "pegasus/montage": 1.0,
+            "pegasus/soykb": 1.0,
+            "pegasus/srasearch": 0.9948179094908045,
+            "snakemake/RASflow": 0.9993578798378324,
+            "snakemake/rna-seq-star-deseq2": 1.0,
+            "streamflow": 1.0
+          },
+          "C_Teacher": 1.4747255181248173,
+          "wins_HEFT": 31,
+          "ties_HEFT": 169,
+          "losses_HEFT": 0,
+          "mean_C_GNN": 1.342638750343249
+        }
+      }
+    }
+  },
+  "configs": 1862,
+  "all_feasible": true,
+  "TEST_evaluated": false,
+  "budget_visible": true,
+  "training": {
+    "updates": 1079,
+    "graphs": 17261,
+    "actions": 276144,
+    "batch_forward_calls": 17264,
+    "ordered_keys_sha256": "856465d841cddf8c5b7f54bcb027b783ae87e70d98ce35b27368305dd5a775c9",
+    "seconds": 1548.375370541995,
+    "parameters": 2976,
+    "seed": 11
+  },
+  "evaluation_seconds": 3904.8428242910013,
+  "graph_equivalent_forwards": 690016,
+  "batch_forward_calls": 68916,
+  "HEFT_identity_cases": 1862
+}

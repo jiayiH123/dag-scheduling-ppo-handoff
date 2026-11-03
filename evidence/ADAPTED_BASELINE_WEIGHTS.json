@@ -1,0 +1,53 @@
+{
+  "note": "Historical adapted controls used by the21baseline plot, separate from pending author-core reproductions",
+  "files": [
+    {
+      "path": "runs/external_baselines_budget_visible_20261028/cai/epoch1.pt",
+      "sha256": "d137d20778767caa50377dd3c41a747896f9da3021a2be8dc32d35a574762b1c"
+    },
+    {
+      "path": "runs/external_baselines_budget_visible_20261028/cai/metadata.json",
+      "sha256": "733363515504e6a165fa1c7fa1467dfd494a02d8cd36889891fe665edf14394d"
+    },
+    {
+      "path": "runs/external_baselines_budget_visible_20261028/cai/summary.json",
+      "sha256": "49c168ec28508fee0263174ca63e45e6c35f3dc039c1eb6c172f083b48d3e5e8"
+    },
+    {
+      "path": "runs/external_baselines_budget_visible_20261028/cai/history.json",
+      "sha256": "777777b4a7b9a1412d0b2bc512e1413d4305af6975f9f69e143bb81d58c24a1c"
+    },
+    {
+      "path": "runs/external_baselines_budget_visible_20261028/graphormer/epoch7.pt",
+      "sha256": "45be27802bb2b0baef35b13cc99a1a5059e8d18337a1887601245eac510d6e99"
+    },
+    {
+      "path": "runs/external_baselines_budget_visible_20261028/graphormer/metadata.json",
+      "sha256": "5defd86ad39038029095d123263c672d9656fbf361f316b791183ca8fb649aab"
+    },
+    {
+      "path": "runs/external_baselines_budget_visible_20261028/graphormer/summary.json",
+      "sha256": "685f4594e777611072e1068d1f945bdbc469175566550e527573eff9dc35f19f"
+    },
+    {
+      "path": "runs/external_baselines_budget_visible_20261028/graphormer/history.json",
+      "sha256": "68672c27683eaf62d9c529ffff0af0604070e457760221273fe07a4b534eabbf"
+    },
+    {
+      "path": "runs/external_baselines_budget_visible_20261028/giph_fast_r1/final.pt",
+      "sha256": "70f806802d897f67cc781f6b94dedaf0e8a851180ce8774d7b4c5d5d854fffa1"
+    },
+    {
+      "path": "runs/external_baselines_budget_visible_20261028/giph_fast_r1/metadata.json",
+      "sha256": "a50f8a547e1c33edb765e4ae1e67a8d10b97da1d8446ae0bf554a368cdeef084"
+    },
+    {
+      "path": "runs/external_baselines_budget_visible_20261028/giph_fast_r1/training_summary.json",
+      "sha256": "67a39fd476e4ea39250959437e1c8d368a8082bb6c7612516cb90c28336ff1a3"
+    },
+    {
+      "path": "runs/external_baselines_budget_visible_20261028/giph_fast_r1/summary.json",
+      "sha256": "37b303aeed6d1ffca56e9c6ef03edeedec6da4fd72d5dcb546e9da42c4087ff5"
+    }
+  ]
+}

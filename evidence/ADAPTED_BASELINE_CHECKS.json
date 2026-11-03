@@ -1,0 +1,20 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "method": "giph",
+      "cases": 4,
+      "exact_historical_makespans": true
+    },
+    {
+      "method": "cai",
+      "cases": 4,
+      "exact_historical_makespans": true
+    },
+    {
+      "method": "graphormer",
+      "cases": 4,
+      "exact_historical_makespans": true
+    }
+  ]
+}

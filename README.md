@@ -92,6 +92,10 @@ python figures/gen_fig_val862_all_baselines_20261102.py
 # 在同一物理模型下重跑启发式/教师（all含18种，可指定方法减少耗时）
 python tools/run_baselines.py --panel synthetic_val862 --methods all --out runs/portable_baselines/val862.json.gz
 
+# 重新评价图中旧适配版已训练模型（作者核心复现使用下一节入口）
+python tools/evaluate_adapted_baseline.py --method giph_heft --panel synthetic_val862 --out runs/portable_baselines/giph_heft.json.gz
+# --method 还可选 cai、graphormer、giph_random
+
 # 把新 PPO 曲线加入同一组 baseline 对比
 python tools/plot_comparison.py --curve runs/portable_ppo_strong_s41/curve.json --out runs/portable_comparison/all_methods
 ```
