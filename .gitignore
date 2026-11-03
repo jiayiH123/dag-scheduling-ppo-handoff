@@ -21,3 +21,6 @@ third_party/GOODRL/validation_data/HEFT/*.pkl
 .env
 *.pem
 *.key
+
+runs/matplotlib-cache/
+evidence/*.log

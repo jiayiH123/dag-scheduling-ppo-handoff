@@ -1,0 +1,207 @@
+{
+  "status": "PASS",
+  "reference_checks": [
+    {
+      "key": "val_simv1_val_00000_b0",
+      "method": "HEFT",
+      "exact_reference": true
+    },
+    {
+      "key": "val_simv1_val_00000_b0",
+      "method": "PEFT",
+      "exact_reference": true
+    },
+    {
+      "key": "val_simv1_val_00000_b0",
+      "method": "JoinLookahead",
+      "exact_reference": true
+    },
+    {
+      "key": "val_simv1_val_00000_b0",
+      "method": "CostFirst",
+      "exact_reference": true
+    },
+    {
+      "key": "val_simv1_val_00000_b0",
+      "method": "MSLBL-adapted",
+      "exact_reference": true
+    },
+    {
+      "key": "val_simv1_val_00000_b0",
+      "method": "BHEFT",
+      "exact_reference": true
+    },
+    {
+      "key": "val_simv1_val_00000_b0",
+      "method": "BUDA",
+      "exact_reference": true
+    },
+    {
+      "key": "val_simv1_val_00000_b0",
+      "method": "Greedy",
+      "exact_reference": true
+    },
+    {
+      "key": "val_simv1_val_00000_b0",
+      "method": "RandomMean5",
+      "exact_reference": true
+    },
+    {
+      "key": "val_simv1_val_00000_b0",
+      "method": "Teacher64",
+      "exact_reference": true
+    },
+    {
+      "key": "val_simv1_val_00000_b1",
+      "method": "HEFT",
+      "exact_reference": true
+    },
+    {
+      "key": "val_simv1_val_00000_b1",
+      "method": "PEFT",
+      "exact_reference": true
+    },
+    {
+      "key": "val_simv1_val_00000_b1",
+      "method": "JoinLookahead",
+      "exact_reference": true
+    },
+    {
+      "key": "val_simv1_val_00000_b1",
+      "method": "CostFirst",
+      "exact_reference": true
+    },
+    {
+      "key": "val_simv1_val_00000_b1",
+      "method": "MSLBL-adapted",
+      "exact_reference": true
+    },
+    {
+      "key": "val_simv1_val_00000_b1",
+      "method": "BHEFT",
+      "exact_reference": true
+    },
+    {
+      "key": "val_simv1_val_00000_b1",
+      "method": "BUDA",
+      "exact_reference": true
+    },
+    {
+      "key": "val_simv1_val_00000_b1",
+      "method": "Greedy",
+      "exact_reference": true
+    },
+    {
+      "key": "val_simv1_val_00000_b1",
+      "method": "RandomMean5",
+      "exact_reference": true
+    },
+    {
+      "key": "val_simv1_val_00000_b1",
+      "method": "Teacher64",
+      "exact_reference": true
+    },
+    {
+      "key": "val_simv1_val_00001_b0",
+      "method": "HEFT",
+      "exact_reference": true
+    },
+    {
+      "key": "val_simv1_val_00001_b0",
+      "method": "PEFT",
+      "exact_reference": true
+    },
+    {
+      "key": "val_simv1_val_00001_b0",
+      "method": "JoinLookahead",
+      "exact_reference": true
+    },
+    {
+      "key": "val_simv1_val_00001_b0",
+      "method": "CostFirst",
+      "exact_reference": true
+    },
+    {
+      "key": "val_simv1_val_00001_b0",
+      "method": "MSLBL-adapted",
+      "exact_reference": true
+    },
+    {
+      "key": "val_simv1_val_00001_b0",
+      "method": "BHEFT",
+      "exact_reference": true
+    },
+    {
+      "key": "val_simv1_val_00001_b0",
+      "method": "BUDA",
+      "exact_reference": true
+    },
+    {
+      "key": "val_simv1_val_00001_b0",
+      "method": "Greedy",
+      "exact_reference": true
+    },
+    {
+      "key": "val_simv1_val_00001_b0",
+      "method": "RandomMean5",
+      "exact_reference": true
+    },
+    {
+      "key": "val_simv1_val_00001_b0",
+      "method": "Teacher64",
+      "exact_reference": true
+    },
+    {
+      "key": "val_simv1_val_00001_b1",
+      "method": "HEFT",
+      "exact_reference": true
+    },
+    {
+      "key": "val_simv1_val_00001_b1",
+      "method": "PEFT",
+      "exact_reference": true
+    },
+    {
+      "key": "val_simv1_val_00001_b1",
+      "method": "JoinLookahead",
+      "exact_reference": true
+    },
+    {
+      "key": "val_simv1_val_00001_b1",
+      "method": "CostFirst",
+      "exact_reference": true
+    },
+    {
+      "key": "val_simv1_val_00001_b1",
+      "method": "MSLBL-adapted",
+      "exact_reference": true
+    },
+    {
+      "key": "val_simv1_val_00001_b1",
+      "method": "BHEFT",
+      "exact_reference": true
+    },
+    {
+      "key": "val_simv1_val_00001_b1",
+      "method": "BUDA",
+      "exact_reference": true
+    },
+    {
+      "key": "val_simv1_val_00001_b1",
+      "method": "Greedy",
+      "exact_reference": true
+    },
+    {
+      "key": "val_simv1_val_00001_b1",
+      "method": "RandomMean5",
+      "exact_reference": true
+    },
+    {
+      "key": "val_simv1_val_00001_b1",
+      "method": "Teacher64",
+      "exact_reference": true
+    }
+  ],
+  "Teacher64v2_exact_cases": 4,
+  "all_18_methods_physically_validated": true
+}

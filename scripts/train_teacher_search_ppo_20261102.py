@@ -36,6 +36,7 @@ class PPO:
         self.source=ROOT/self.cfg['strong_source'] if arm=='strong' else ROOT/self.cfg['no_search_SFT_run']/'best.pt'
         if self.cfg.get('portable_source_override'):self.source=ROOT/self.cfg['portable_source_override']
         self.source_state=torch.load(self.source,map_location='cpu',weights_only=False)
+        self.source_state.setdefault('step',self.source_state.get('actor_updates',0))
         self.binding=dict(runtime_config_sha256=digest(self.cfg),portable_runtime_sha256=sha256(ROOT/'daglab/portable_runtime.py'),source=sha256(self.source),config=sha256(ROOT/'configs/teacher_search_ablation_ppo_20261102.json'),
             arm=arm,seed=seed,code=code_binding(['scripts/train_teacher_search_ppo_20261102.py',
                 'daglab/teacher_search_ablation.py','daglab/state_score.py','daglab/state_score_torch.py',

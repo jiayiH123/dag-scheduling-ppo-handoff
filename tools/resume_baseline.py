@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 """Declared relocation of baseline checkpoint bindings, then original workers."""
-import argparse,json,sys
+import argparse,json,subprocess,sys
 from pathlib import Path
 ROOT=Path(__file__).resolve().parents[1];sys.path.insert(0,str(ROOT))
 
@@ -49,5 +49,6 @@ def main():
     else:
         from scripts.run_faithful_external_20261102 import method_queue
         method_queue('cai')
+    subprocess.run([sys.executable,str(ROOT/'scripts/report_giph_paper200_20261102.py')],cwd=ROOT,check=True)
 
 if __name__=='__main__':main()

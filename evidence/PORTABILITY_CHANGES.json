@@ -14,8 +14,9 @@
   {
     "path": "scripts/train_teacher_search_ppo_20261102.py",
     "source_sha256": "7d25db7ed1a00a27433b68d17c9e77cefafd8c750da2fb56ac3c542edbb9d922",
-    "portable_sha256": "37658270b33d102491f5bc785ba5d5f2e60b9632e3600d62bfa5032c9ecd9d64",
-    "changes": 10
+    "portable_sha256": "b169119412bd82b37b5e57d539c2188043afa42d78cf0048e9282eb1942a53f8",
+    "changes": 10,
+    "source_checkpoint_compatibility": "SFT step or PPO actor_updates metadata accepted; model weights unchanged"
   },
   {
     "path": "daglab/faithful_external_data.py",

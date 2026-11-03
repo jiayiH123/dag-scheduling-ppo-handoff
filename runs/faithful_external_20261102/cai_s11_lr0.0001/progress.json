@@ -1,14 +1,7 @@
 {
-  "stage": "training",
-  "arm": "cai_s11_lr0.0001",
-  "update": 4980,
-  "epoch": 5,
-  "position": 10624,
-  "presentations": 79668,
-  "moves": 0,
-  "node_decisions": 20735760,
-  "loss": -0.0017152337823063135,
-  "gradient_norm": 0.3693360388278961,
-  "sampled_ratio": 1.29653225935345,
-  "training_seconds": 3746.2932026808267
+  "stage": "evaluation",
+  "unit": 6474,
+  "cases": 200,
+  "total": 862,
+  "seconds": 5.821977000043262
 }

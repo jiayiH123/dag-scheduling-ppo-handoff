@@ -250,5 +250,77 @@
     },
     "primary": 1.2367701492091616,
     "seconds": 32.893657249980606
+  },
+  {
+    "unit": 5000,
+    "action_seed": 101,
+    "variants": {
+      "CAI": {
+        "configs": 862,
+        "bases": 500,
+        "base_macro": 1.2444038613507098,
+        "config_mean": 1.2562367112194033,
+        "wins": 75,
+        "ties": 61,
+        "losses": 726,
+        "all_feasible": true
+      }
+    },
+    "primary": 1.2444038613507098,
+    "seconds": 38.42521079198923
+  },
+  {
+    "unit": 5395,
+    "action_seed": 101,
+    "variants": {
+      "CAI": {
+        "configs": 862,
+        "bases": 500,
+        "base_macro": 1.2383775483216282,
+        "config_mean": 1.2524223156307668,
+        "wins": 69,
+        "ties": 61,
+        "losses": 732,
+        "all_feasible": true
+      }
+    },
+    "primary": 1.2383775483216282,
+    "seconds": 25.672563250001986
+  },
+  {
+    "unit": 5500,
+    "action_seed": 101,
+    "variants": {
+      "CAI": {
+        "configs": 862,
+        "bases": 500,
+        "base_macro": 1.2481484185488108,
+        "config_mean": 1.260137358263687,
+        "wins": 75,
+        "ties": 59,
+        "losses": 728,
+        "all_feasible": true
+      }
+    },
+    "primary": 1.2481484185488108,
+    "seconds": 29.728666500013787
+  },
+  {
+    "unit": 6000,
+    "action_seed": 101,
+    "variants": {
+      "CAI": {
+        "configs": 862,
+        "bases": 500,
+        "base_macro": 1.246129580814591,
+        "config_mean": 1.2608798599703435,
+        "wins": 69,
+        "ties": 56,
+        "losses": 737,
+        "all_feasible": true
+      }
+    },
+    "primary": 1.246129580814591,
+    "seconds": 28.230742625019047
   }
 ]

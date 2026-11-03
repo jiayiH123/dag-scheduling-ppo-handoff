@@ -1,0 +1,28 @@
+{
+  "status": "PASS",
+  "GiPH": [
+    {
+      "seed": 11,
+      "episodes": 200,
+      "optimizer_state_present": true,
+      "finite_policy": true
+    },
+    {
+      "seed": 22,
+      "episodes": 200,
+      "optimizer_state_present": true,
+      "finite_policy": true
+    },
+    {
+      "seed": 33,
+      "episodes": 200,
+      "optimizer_state_present": true,
+      "finite_policy": true
+    }
+  ],
+  "CAI": {
+    "snapshot_updates": 4980,
+    "finite_policy": true,
+    "optimizer_state_present": true
+  }
+}

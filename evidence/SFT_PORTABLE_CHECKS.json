@@ -1,0 +1,7 @@
+{
+  "status": "PASS",
+  "steps": 1,
+  "retained_target": 1,
+  "initial_and_final_full_VAL": true,
+  "finite_loss_gradient_and_checkpoint": true
+}

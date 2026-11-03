@@ -2,34 +2,58 @@
   "date": "2026-11-03 Asia/Shanghai",
   "status": {
     "runs/giph_paper200_20261102": {
-      "status": "running",
-      "pid": 9330,
-      "started_unix": 1793629322.90192,
-      "episodes_per_seed": 200,
-      "learning_rate": 0.01,
-      "seeds": [
-        11,
-        22,
-        33
-      ],
-      "prior_GiPH_queue_stopped": true
+      "seed11": {
+        "progress": {
+          "stage": "evaluation",
+          "unit": 200,
+          "cases": 300,
+          "total": 862,
+          "seconds": 5570.174974082969
+        },
+        "complete": false
+      },
+      "seed22": {
+        "progress": {
+          "stage": "evaluation",
+          "unit": 200,
+          "cases": 300,
+          "total": 862,
+          "seconds": 5581.889971832978
+        },
+        "complete": false
+      },
+      "seed33": {
+        "progress": {
+          "stage": "evaluation",
+          "unit": 200,
+          "cases": 300,
+          "total": 862,
+          "seconds": 5528.862217832997
+        },
+        "complete": false
+      }
     },
     "runs/faithful_external_20261102": {
-      "status": "running_split_queues",
-      "pid": 9330,
-      "old_supervisor_stopped": true,
-      "cai_queue": {
-        "pid": 7494,
-        "command": [
-          "/opt/miniconda3/envs/dag_env/bin/python",
-          "/Users/huangjiayi/Desktop/DAG-Scheduling-Research/transfer/dag-scheduling-llm-lab/scripts/run_faithful_external_20261102.py",
-          "--method-queue",
-          "cai"
-        ]
+      "cai_s11_lr0.0001": {
+        "progress": {
+          "stage": "evaluation",
+          "unit": 6474,
+          "cases": 200,
+          "total": 862,
+          "seconds": 5.821977000043262
+        },
+        "complete": false
       },
-      "replacement_giph_run": "runs/giph_paper200_20261102",
-      "canceled_GiPH_budget": 17261,
-      "current_GiPH_budget": 200
+      "cai_s11_lr0.0005": {
+        "progress": {
+          "stage": "evaluation",
+          "unit": 7553,
+          "cases": 850,
+          "total": 862,
+          "seconds": 28.270633332955185
+        },
+        "complete": true
+      }
     }
   },
   "files": [
@@ -65,8 +89,8 @@
     },
     {
       "path": "runs/giph_paper200_20261102/seed11/progress.json",
-      "sha256": "27c39d9b3e4d3c757b7cdcd31de06dec6a956687e47c4ccbcc0f215913c5c25e",
-      "bytes": 106
+      "sha256": "76fd3ea13fe8d871741cb1c8e9a6d9c2546daca3c41546527cade83c08e2dd8f",
+      "bytes": 107
     },
     {
       "path": "runs/giph_paper200_20261102/seed22/initial.pt",
@@ -100,8 +124,8 @@
     },
     {
       "path": "runs/giph_paper200_20261102/seed22/progress.json",
-      "sha256": "15e4e3dc8ded4fccd1b1f6999ab27f94aa1558faea5046941277c314e62fe38e",
-      "bytes": 108
+      "sha256": "81b359a951ab8cdeec55658ec447762e48ab9694ec4ee33f55a72961cf2612e2",
+      "bytes": 107
     },
     {
       "path": "runs/giph_paper200_20261102/seed33/initial.pt",
@@ -135,8 +159,8 @@
     },
     {
       "path": "runs/giph_paper200_20261102/seed33/progress.json",
-      "sha256": "bdba5b7dfca3208ed02aab1c77c0f31d700fb5d470fafd81a69f71e32387de6c",
-      "bytes": 108
+      "sha256": "deb1e236a70c1ba18ab66f62fdff112371fb90d3312801a102859df6f89444ab",
+      "bytes": 107
     },
     {
       "path": "runs/faithful_external_20261102/cai_s11_lr0.0001/initial.pt",
@@ -147,6 +171,11 @@
       "path": "runs/faithful_external_20261102/cai_s11_lr0.0001/val_0001000.json.gz",
       "sha256": "87455b04be57196afa050bf28d6f88ebd00fbfaf0c79063e8d3cefb65178840a",
       "bytes": 285527
+    },
+    {
+      "path": "runs/faithful_external_20261102/cai_s11_lr0.0001/val_0005395.json.gz",
+      "sha256": "1ccda4b6bfd61d0ad0a47023ff083dfb2ea4c7d1ed5f19c0f1a4ba842b74e01d",
+      "bytes": 285722
     },
     {
       "path": "runs/faithful_external_20261102/cai_s11_lr0.0001/val_0002500.json.gz",
@@ -160,8 +189,8 @@
     },
     {
       "path": "runs/faithful_external_20261102/cai_s11_lr0.0001/curve.json",
-      "sha256": "58678337638e04a3a2e0fe9f230ec208bc5f038a385f72fb01b87a8ddda2c317",
-      "bytes": 5455
+      "sha256": "70f91d0478af4a11b9d5fd39b173d99bb551fffd1f3b7e144ad44574d36c853c",
+      "bytes": 7015
     },
     {
       "path": "runs/faithful_external_20261102/cai_s11_lr0.0001/val_0004316.json.gz",
@@ -194,19 +223,34 @@
       "bytes": 3235
     },
     {
+      "path": "runs/faithful_external_20261102/cai_s11_lr0.0001/val_0005500.json.gz",
+      "sha256": "45636f7639ccd8b57709e716ab4ed49a634b82957c8c13715d648f858ec32b07",
+      "bytes": 286056
+    },
+    {
       "path": "runs/faithful_external_20261102/cai_s11_lr0.0001/val_0001079.json.gz",
       "sha256": "fe5e2695d9a6ff080c60f6442e7e3f29fed62695100226d3ff994ba726272fd8",
       "bytes": 285537
     },
     {
+      "path": "runs/faithful_external_20261102/cai_s11_lr0.0001/val_0006000.json.gz",
+      "sha256": "cfff668d34096f93425c8c36dac828c75f8a6bb1db3fede74116abcc1bad7996",
+      "bytes": 285910
+    },
+    {
+      "path": "runs/faithful_external_20261102/cai_s11_lr0.0001/val_0005000.json.gz",
+      "sha256": "3b1d89d4baa1b789b45c1db39ce835730df33f6ef45ce53f500e57caf63833e8",
+      "bytes": 285747
+    },
+    {
       "path": "runs/faithful_external_20261102/cai_s11_lr0.0001/training.jsonl",
-      "sha256": "cec3d50c5727ff693d098a83fa401c3a08d0b149c917b75d62a10a7cc4196349",
-      "bytes": 1265134
+      "sha256": "5bc9f09136d7a076e53a0c49f005f12f6b6686ab8394f1fe63170c800d794cd6",
+      "bytes": 1646324
     },
     {
       "path": "runs/faithful_external_20261102/cai_s11_lr0.0001/resume.pt",
-      "sha256": "59860d2f9a17b9ba77c7584a428d4be51ec4e67c30c6b4b58090a238164d81e0",
-      "bytes": 1616642
+      "sha256": "d129f32e1de553e98236501db3d7a9abb5e0a762334c3220a46c38cf2790a6ea",
+      "bytes": 1617090
     },
     {
       "path": "runs/faithful_external_20261102/cai_s11_lr0.0001/val_0000000.json.gz",
@@ -215,8 +259,8 @@
     },
     {
       "path": "runs/faithful_external_20261102/cai_s11_lr0.0001/progress.json",
-      "sha256": "e2144b6e2a338e5243d5d7eb5e170c44e2137bd68ea39eda68b3d29fa6d0fdea",
-      "bytes": 330
+      "sha256": "ca563b243518fb56ff29b6d586be3e6e2cdb3a89dbb03009868c340d0a9f00dc",
+      "bytes": 108
     },
     {
       "path": "runs/faithful_external_20261102/cai_s11_lr0.0001/val_0003500.json.gz",
@@ -399,5 +443,5 @@
       "bytes": 285691
     }
   ],
-  "note": "Checkpoint is authoritative; progress/log files may be newer. No host PID files or dependency binaries copied."
+  "note": "Physical Mac jobs continue. Atomic checkpoints define resumable state; copied progress may be newer. Incomplete evaluation partials excluded."
 }

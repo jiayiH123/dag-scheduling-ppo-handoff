@@ -89,6 +89,9 @@ python tools/evaluate.py --checkpoint runs/sft_teacher64_bheft_original_20261102
 # 原来那张 21 条 baseline + 每100步SFT 的完整图：直接读取保存的逐例结果，无需训练
 python figures/gen_fig_val862_all_baselines_20261102.py
 
+# 在同一物理模型下重跑启发式/教师（all含18种，可指定方法减少耗时）
+python tools/run_baselines.py --panel synthetic_val862 --methods all --out runs/portable_baselines/val862.json.gz
+
 # 把新 PPO 曲线加入同一组 baseline 对比
 python tools/plot_comparison.py --curve runs/portable_ppo_strong_s41/curve.json --out runs/portable_comparison/all_methods
 ```

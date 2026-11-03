@@ -1,0 +1,9 @@
+{
+  "status": "PASS",
+  "panel": "wf400",
+  "engineering_cases": 8,
+  "application_group_reporting": [
+    "nextflow/cutandrun"
+  ],
+  "all_feasible": true
+}
