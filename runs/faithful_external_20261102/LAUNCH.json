@@ -1,0 +1,12 @@
+{
+  "pid": 7477,
+  "protocol_commit": "8e1412b",
+  "implementation_commit": "35295efaa720cd50ada254ec5e1b7625a472e09a",
+  "client_date": "2026-11-02",
+  "command": [
+    "/opt/miniconda3/envs/dag_env/bin/python",
+    "-u",
+    "scripts/run_faithful_external_20261102.py"
+  ],
+  "supersedes": "archive_unbounded_budget_ratio"
+}

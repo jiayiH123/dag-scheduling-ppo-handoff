@@ -1,0 +1,145 @@
+{
+  "status": "PASS",
+  "scope": "known VAL862, single SFT seed28 per arm, three paired RL seeds; per-seed VAL-selected best checkpoints",
+  "arms": {
+    "strong": {
+      "SFT_best": 0.8661899379000059,
+      "SFT_best_step": 7553,
+      "SFT_last": 0.8661899379000059,
+      "SFT_plan_sha256": "7829be30cf7d1173ca2a46347ef9007ac4beee806f168694aae09c1eda865655",
+      "SFT_initial_sha256": "8d2aa1a9cac084b52431d19c18294bed10d7309327766b9beed34c69c2d6da87",
+      "runs": [
+        {
+          "seed": 41,
+          "best_update": 1000,
+          "best_C_HEFT": 0.8620748324437004,
+          "config_mean_at_primary_best": 0.84257036696415,
+          "last_C_HEFT": 0.8629247205630276,
+          "relative_improvement_over_SFT": 0.0047508118903829555
+        },
+        {
+          "seed": 22,
+          "best_update": 800,
+          "best_C_HEFT": 0.862362604644673,
+          "config_mean_at_primary_best": 0.8402444269223923,
+          "last_C_HEFT": 0.864510666217715,
+          "relative_improvement_over_SFT": 0.004418584294123673
+        },
+        {
+          "seed": 33,
+          "best_update": 700,
+          "best_C_HEFT": 0.8612704613641511,
+          "config_mean_at_primary_best": 0.8409660347166327,
+          "last_C_HEFT": 0.8664175747751605,
+          "relative_improvement_over_SFT": 0.005679443180535593
+        }
+      ],
+      "PPO_best_mean": 0.8619026328175081,
+      "PPO_best_sample_std": 0.0005660686970172766,
+      "PPO_last_mean": 0.8646176538519676,
+      "relative_mean_best_gain_over_SFT": 0.0049496131216808514
+    },
+    "no_search": {
+      "SFT_best": 0.8819672676685362,
+      "SFT_best_step": 7500,
+      "SFT_last": 0.8903263146120335,
+      "SFT_plan_sha256": "7829be30cf7d1173ca2a46347ef9007ac4beee806f168694aae09c1eda865655",
+      "SFT_initial_sha256": "8d2aa1a9cac084b52431d19c18294bed10d7309327766b9beed34c69c2d6da87",
+      "runs": [
+        {
+          "seed": 41,
+          "best_update": 500,
+          "best_C_HEFT": 0.8798832225353711,
+          "config_mean_at_primary_best": 0.8636777265691065,
+          "last_C_HEFT": 0.8849737482654392,
+          "relative_improvement_over_SFT": 0.0023629506553844992
+        },
+        {
+          "seed": 22,
+          "best_update": 0,
+          "best_C_HEFT": 0.8819672676685362,
+          "config_mean_at_primary_best": 0.8659942515508581,
+          "last_C_HEFT": 0.8917242615818699,
+          "relative_improvement_over_SFT": 0.0
+        },
+        {
+          "seed": 33,
+          "best_update": 100,
+          "best_C_HEFT": 0.8804978939099879,
+          "config_mean_at_primary_best": 0.8643540712012171,
+          "last_C_HEFT": 0.8806127537621193,
+          "relative_improvement_over_SFT": 0.0016660184707676384
+        }
+      ],
+      "PPO_best_mean": 0.8807827947046317,
+      "PPO_best_sample_std": 0.0010708348968719527,
+      "PPO_last_mean": 0.8857702545364762,
+      "relative_mean_best_gain_over_SFT": 0.0013429897087173792
+    }
+  },
+  "paired": [
+    {
+      "seed": 41,
+      "no_search_faster_configs": 222,
+      "equal_configs": 254,
+      "no_search_slower_configs": 386,
+      "config_mean_relative_slowdown_no_search": 0.033493003104264896
+    },
+    {
+      "seed": 22,
+      "no_search_faster_configs": 254,
+      "equal_configs": 205,
+      "no_search_slower_configs": 403,
+      "config_mean_relative_slowdown_no_search": 0.04695915939411017
+    },
+    {
+      "seed": 33,
+      "no_search_faster_configs": 257,
+      "equal_configs": 227,
+      "no_search_slower_configs": 378,
+      "config_mean_relative_slowdown_no_search": 0.04327565336928674
+    }
+  ],
+  "by_n": [
+    {
+      "n": 20,
+      "bases": 125,
+      "configs": 220,
+      "strong": 0.8727753975763372,
+      "no_search": 0.8910104757029187
+    },
+    {
+      "n": 40,
+      "bases": 125,
+      "configs": 207,
+      "strong": 0.8552051534965477,
+      "no_search": 0.8736830102894138
+    },
+    {
+      "n": 80,
+      "bases": 125,
+      "configs": 216,
+      "strong": 0.8695483417607464,
+      "no_search": 0.8895143488247406
+    },
+    {
+      "n": 120,
+      "bases": 125,
+      "configs": 219,
+      "strong": 0.8500816384363996,
+      "no_search": 0.8689233440014531
+    }
+  ],
+  "no_search_vs_strong_SFT_ratio": 0.01821463062337214,
+  "no_search_vs_strong_PPO_best_mean_ratio": 0.021905214311047416,
+  "no_search_minus_strong_PPO_base_mean": 0.01888016188712382,
+  "conditional_base_bootstrap95_no_search_minus_strong": [
+    0.01258338944114086,
+    0.025444762034218648
+  ],
+  "CI_scope": "500-base bootstrap conditional on fixed VAL-selected models; does not account for checkpoint selection or independent SFT training uncertainty",
+  "matching_SFT_initialization_and_sampler": true,
+  "matching_PPO_critic_initializations_and_keys": true,
+  "actual_actor_and_critic_updates_per_PPO_arm": 1024,
+  "source_or_model_mutations": false
+}

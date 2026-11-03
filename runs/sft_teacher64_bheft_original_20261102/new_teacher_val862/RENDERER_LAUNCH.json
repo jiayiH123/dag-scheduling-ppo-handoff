@@ -1,0 +1,11 @@
+{
+  "pid": 96706,
+  "command": [
+    "/opt/miniconda3/envs/dag-research/bin/python",
+    "-u",
+    "figures/gen_fig_teacher64_bheft_val862_overlay_20261102.py",
+    "--watch"
+  ],
+  "started_unix": 1793613391.444036,
+  "bounded_to_current_training_completion": true
+}

@@ -1,0 +1,26 @@
+{
+  "train": 17261,
+  "train_bases": 10000,
+  "val": 862,
+  "val_bases": 500,
+  "train_database_sha256": "d544e01797987f134e9c8420ba3cce0c59807ff1392c01370aed3477bcee522a",
+  "val_database_sha256": "745c64c797f1969b111ae3e450139f91b13ed2134f471792ae67217f581c3f0d",
+  "train_key_sha256": "fed4ad273f9639d77146cf06b4d91d7745721dd49332b4fd52c290b21ce694c8",
+  "val_key_sha256": "7ad42f60070b56691c6af67c393052db2f395e595d8313407c1ab7ce78a0bda0",
+  "train_shapes": {
+    "20x3": 1395,
+    "20x4": 1487,
+    "20x6": 1417,
+    "40x3": 1427,
+    "40x4": 1432,
+    "40x6": 1460,
+    "80x3": 1442,
+    "80x4": 1451,
+    "80x6": 1433,
+    "120x3": 1426,
+    "120x4": 1355,
+    "120x6": 1536
+  },
+  "supervision_used": false,
+  "TEST_queried": false
+}

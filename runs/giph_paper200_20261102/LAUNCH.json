@@ -1,0 +1,11 @@
+{
+  "pid": 9330,
+  "command": [
+    "/opt/miniconda3/envs/dag_env/bin/python",
+    "-u",
+    "scripts/run_giph_paper200_20261102.py"
+  ],
+  "implementation_commit": "e8b4804",
+  "protocol_commit": "09c4a70",
+  "unix": 1793629321.413572
+}

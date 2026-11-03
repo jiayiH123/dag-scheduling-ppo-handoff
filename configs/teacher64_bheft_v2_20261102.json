@@ -1,0 +1,21 @@
+{
+  "schema": "teacher64-bheft-retain-v2",
+  "run": "runs/teacher64_bheft_v2_20261102",
+  "protocol": "protocols/teacher64_bheft_v2_20261102.md",
+  "sources": [
+    {"id": "original", "database": "runs/synthetic_transfer_20261031/data_base/public.sqlite3", "where": "source='synthetic' AND role='train'", "expected_configs": 17261, "expected_actions": 1122860},
+    {"id": "augmented", "database": "runs/application_augmentation_4000_20261102/data/training.sqlite3", "where": "role='train'", "expected_configs": 4000, "expected_actions": 466772}
+  ],
+  "legacy_rules": ["HEFT", "PEFT", "JoinLookahead", "CostFirst", "MSLBL-adapted", "PEFT-price0.1", "PEFT-price0.3", "PEFT-price1", "PEFT-price3", "PEFT-price10"],
+  "added_rule": "BHEFT-adapted",
+  "construction_order": "fixed_HEFT_upward_rank",
+  "local_attempts": 64,
+  "local_seed_offset": 3917,
+  "retain_legacy_final_after_search": true,
+  "workers": 2,
+  "batch_configs": 8,
+  "progress_interval_seconds": 10,
+  "sim_python": "/opt/miniconda3/envs/dag-research/bin/python",
+  "automatic_training": false,
+  "validation_labels_used_for_training": false
+}

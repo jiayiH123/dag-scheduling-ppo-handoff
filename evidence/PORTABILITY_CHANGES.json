@@ -1,0 +1,26 @@
+[
+  {
+    "path": "scripts/check_direct_score.py",
+    "source_sha256": "efa3fd5a0953320dd6e80f075de1501691901d1d8e62e970a964371659da488c",
+    "portable_sha256": "0b01ab2218dd95ec68c815269d9e46182ee47b2e2554e5ef0b58a0aa3b222054",
+    "changes": 1
+  },
+  {
+    "path": "daglab/teacher_search_ablation.py",
+    "source_sha256": "4541a7ca84b59134b2b236e6719a1157ebf8c03f3579a19f5fbde336d7afb87e",
+    "portable_sha256": "a49f53c1cc80585e3a643705f18fbdbe1011fae70819c2cf383daa190b116a49",
+    "changes": 2
+  },
+  {
+    "path": "scripts/train_teacher_search_ppo_20261102.py",
+    "source_sha256": "7d25db7ed1a00a27433b68d17c9e77cefafd8c750da2fb56ac3c542edbb9d922",
+    "portable_sha256": "37658270b33d102491f5bc785ba5d5f2e60b9632e3600d62bfa5032c9ecd9d64",
+    "changes": 10
+  },
+  {
+    "path": "daglab/faithful_external_data.py",
+    "source_sha256": "10fff8e1eb94ea2f3b40c61e11c9fc3a6fbf242b14029d6401ca94df4cd1a4e8",
+    "portable_sha256": "096af05ceef734e9a91b48329ab225d8721407ee0c8809bf14f4adeb55c39279",
+    "changes": "Resolve both baseline interpreter paths to the current environment; declared checkpoint binding migration required."
+  }
+]

@@ -1,0 +1,60 @@
+{
+  "commits": {
+    "cai": "1a2aacc3fc44d8d8f1ef779488a39cab80abf991",
+    "giph": "427caced16988f0f7c22b7dcceea59fa472dbc34"
+  },
+  "sources": {
+    "cai": "https://github.com/9erAlpenjaeger/DAG-CAI-DR",
+    "giph": "https://github.com/uidmice/placement-rl"
+  },
+  "files": [
+    {
+      "path": "vendor/external_baseline_sources_20261028/cai/.LICENSE",
+      "sha256": "fb30e969933c1ba998feed66c0c739f3d345e449f34d177f33bcb316298767bf"
+    },
+    {
+      "path": "vendor/external_baseline_sources_20261028/cai/README.md",
+      "sha256": "60acc1fb3ebc3d93166236cca6d5345e96b247fee103d4af83849a75059347fd"
+    },
+    {
+      "path": "vendor/external_baseline_sources_20261028/cai/RL_models/utils.py",
+      "sha256": "3334398e241e12f40cedc099d2093d166f4669d50665edcf33109b85efcb4ea7"
+    },
+    {
+      "path": "vendor/external_baseline_sources_20261028/cai/RL_models/list_oneshot.py",
+      "sha256": "90087b0a9291a3007b87168a60cce6f3a20cfa9d7ad6a4d627ddcfd29ed64482"
+    },
+    {
+      "path": "vendor/external_baseline_sources_20261028/cai/heft.py",
+      "sha256": "e780042f7dbef81831e6ea97228527350743cdc9606e177d802bcfeb6814809d"
+    },
+    {
+      "path": "vendor/external_baseline_sources_20261028/cai/gymenvs/cloudgym_oneshot.py",
+      "sha256": "4ce7bd4c3335e3a7a13f4ae0294d8dcac0f3d96e35fee6c20d0c36ee41e80d28"
+    },
+    {
+      "path": "vendor/external_baseline_sources_20261028/giph/LICENSE",
+      "sha256": "f91a696e2673371f4e4448d88ec07bef2b247fbe30133749fd55bc31415990ae"
+    },
+    {
+      "path": "vendor/external_baseline_sources_20261028/giph/README.md",
+      "sha256": "f5020d6b905fbdf4541113428f2f27999e61c06851f8f9b2dbec62c373e0a760"
+    },
+    {
+      "path": "vendor/external_baseline_sources_20261028/giph/placement_rl/placement_agent.py",
+      "sha256": "3f873bf10c664b506a2510fbbf9e637ba77ee107fdab76d8552b0cf90fdfcedf"
+    },
+    {
+      "path": "vendor/external_baseline_sources_20261028/giph/placement_rl/primative_nn.py",
+      "sha256": "5bcd9f367f318c0f15d723b388566c7600c704cca1790b01320129d67dbfeb1a"
+    },
+    {
+      "path": "vendor/external_baseline_sources_20261028/giph/placement_rl/placement_env.py",
+      "sha256": "4a7a1a5677c711692985fe3b5f5f4a632fb528b90fe71dff5079407af04446da"
+    },
+    {
+      "path": "vendor/external_baseline_sources_20261028/giph/experiment.py",
+      "sha256": "14518798f114cac99759843996e77c19e93978214c7a49fc0f7ae1fe3f1a19c2"
+    }
+  ]
+}

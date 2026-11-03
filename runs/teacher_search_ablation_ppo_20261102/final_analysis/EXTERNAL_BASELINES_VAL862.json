@@ -1,0 +1,180 @@
+{
+  "status": "PASS",
+  "configs": 862,
+  "bases": 500,
+  "exact_keys_and_baseline_references_match": true,
+  "metrics": {
+    "HEFT": {
+      "configs": 862,
+      "bases": 500,
+      "C_HEFT_base_macro": 1.0,
+      "C_HEFT_config_mean": 1.0
+    },
+    "MSLBL": {
+      "configs": 862,
+      "bases": 500,
+      "C_HEFT_base_macro": 0.961882161356955,
+      "C_HEFT_config_mean": 0.955779769555634
+    },
+    "Greedy": {
+      "configs": 862,
+      "bases": 500,
+      "C_HEFT_base_macro": 1.224140462978025,
+      "C_HEFT_config_mean": 1.2378152664848934
+    },
+    "Portfolio": {
+      "configs": 862,
+      "bases": 500,
+      "C_HEFT_base_macro": 0.858773176231575,
+      "C_HEFT_config_mean": 0.8407448604269446
+    },
+    "Teacher64": {
+      "configs": 862,
+      "bases": 500,
+      "C_HEFT_base_macro": 0.8426115732787387,
+      "C_HEFT_config_mean": 0.8220977150503578
+    },
+    "BHEFT": {
+      "configs": 862,
+      "bases": 500,
+      "C_HEFT_base_macro": 0.9679010441074981,
+      "C_HEFT_config_mean": 0.944491939588573
+    },
+    "BUDA": {
+      "configs": 862,
+      "bases": 500,
+      "C_HEFT_base_macro": 2.8030019627881737,
+      "C_HEFT_config_mean": 2.3844933167315285
+    },
+    "RandomMean5": {
+      "configs": 862,
+      "bases": 500,
+      "C_HEFT_base_macro": 2.9552902554560307,
+      "C_HEFT_config_mean": 2.566672971330561
+    },
+    "PEFT": {
+      "configs": 862,
+      "bases": 500,
+      "C_HEFT_base_macro": 1.0378187749509498,
+      "C_HEFT_config_mean": 1.0430724861527274
+    },
+    "JoinLookahead": {
+      "configs": 862,
+      "bases": 500,
+      "C_HEFT_base_macro": 0.9930814271233309,
+      "C_HEFT_config_mean": 0.9952544630400952
+    },
+    "CostFirst": {
+      "configs": 862,
+      "bases": 500,
+      "C_HEFT_base_macro": 3.2428346693997963,
+      "C_HEFT_config_mean": 2.759931907214374
+    },
+    "Current_strong_SFT": {
+      "configs": 862,
+      "bases": 500,
+      "C_HEFT_base_macro": 0.8661899379000059,
+      "C_HEFT_config_mean": 0.8469482894150298
+    },
+    "CAI_DR_BiGAT_visible_selected_epoch1": {
+      "configs": 862,
+      "bases": 500,
+      "C_HEFT_base_macro": 1.2532812104719473,
+      "C_HEFT_config_mean": 1.270035960829948
+    },
+    "CAI_DR_BiGAT_visible_last_epoch7": {
+      "configs": 862,
+      "bases": 500,
+      "C_HEFT_base_macro": 1.2653188557595831,
+      "C_HEFT_config_mean": 1.2785459585979033
+    },
+    "CAI_DR_Graphormer_visible_selected_epoch7": {
+      "configs": 862,
+      "bases": 500,
+      "C_HEFT_base_macro": 1.2556892289662611,
+      "C_HEFT_config_mean": 1.2709391896628166
+    },
+    "CAI_noDR_BiGAT_visible_epoch1": {
+      "configs": 862,
+      "bases": 500,
+      "C_HEFT_base_macro": 1.13039786606179,
+      "C_HEFT_config_mean": 1.1386543482203588
+    },
+    "GiPH_random_16": {
+      "configs": 862,
+      "bases": 500,
+      "C_HEFT_base_macro": 1.4491351952058813,
+      "C_HEFT_config_mean": 1.3289706873493856
+    },
+    "GiPH_random_64": {
+      "configs": 862,
+      "bases": 500,
+      "C_HEFT_base_macro": 1.1990717085331593,
+      "C_HEFT_config_mean": 1.1365656263261446
+    },
+    "GiPH_random_2n": {
+      "configs": 862,
+      "bases": 500,
+      "C_HEFT_base_macro": 1.1941165664257363,
+      "C_HEFT_config_mean": 1.1329443667032992
+    },
+    "GiPH_HEFT_16": {
+      "configs": 862,
+      "bases": 500,
+      "C_HEFT_base_macro": 0.9362492720105194,
+      "C_HEFT_config_mean": 0.929120645822285
+    },
+    "GiPH_HEFT_64": {
+      "configs": 862,
+      "bases": 500,
+      "C_HEFT_base_macro": 0.9215995812382175,
+      "C_HEFT_config_mean": 0.9124804749681094
+    },
+    "GiPH_HEFT_2n": {
+      "configs": 862,
+      "bases": 500,
+      "C_HEFT_base_macro": 0.9206007840497212,
+      "C_HEFT_config_mean": 0.9113217775336586
+    },
+    "GiPH_initial_HEFT16": {
+      "configs": 862,
+      "bases": 500,
+      "C_HEFT_base_macro": 0.992008865705239,
+      "C_HEFT_config_mean": 0.9907295425814835
+    },
+    "Current_strong_PPO_mean3": {
+      "configs": 862,
+      "bases": 500,
+      "C_HEFT_base_macro": 0.8619026328175081,
+      "C_HEFT_config_mean": 0.8412602762010583,
+      "selection": "each RL seed selected by base-macro VAL; mean of three fixed selected policies"
+    }
+  },
+  "artifacts": [
+    {
+      "path": "runs/external_baselines_budget_visible_20261028/cai/epoch1_cases.jsonl",
+      "sha256": "d1e3c568b156ad0923a2bd3649cbc45a8f784add1c85c400536ef1d14a3a4a24"
+    },
+    {
+      "path": "runs/external_baselines_budget_visible_20261028/cai/epoch7_cases.jsonl",
+      "sha256": "2bf14c49bf4baf63d9c980c48a3c9a9657c22882dff60eb36baaabbcce4b35c1"
+    },
+    {
+      "path": "runs/external_baselines_budget_visible_20261028/graphormer/epoch7_cases.jsonl",
+      "sha256": "aca9fae5dbe976903646acf370cf50aaa0c8223d6c159874d20f0fdeca1dff71"
+    },
+    {
+      "path": "runs/external_baselines_budget_visible_20261028/cai_sparse/epoch1_cases.jsonl",
+      "sha256": "5309164e8cf3e0cd17fcdf2fe993013268163f54c439244dacfdae3e88286c0b"
+    },
+    {
+      "path": "runs/external_baselines_budget_visible_20261028/giph_fast_r1/cases.jsonl",
+      "sha256": "5874b78fe18166dd8f2331f627a2c10ef92cf2918ac40ea3e9afef908ed0c866"
+    }
+  ],
+  "source_current_rows_sha256": "92d7b275ade1931c3f40a0c24c20f8ddb7c5f976807cffdcd6085cdf09c10bfc",
+  "no_new_training": true,
+  "no_new_inference": true,
+  "CAI_selection_preserved": true,
+  "GiPH_HEFT_start_included": true
+}

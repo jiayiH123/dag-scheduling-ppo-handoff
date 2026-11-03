@@ -1,0 +1,2068 @@
+{
+  "status": "complete",
+  "updated": "2026-11-02T18:21:33+08:00",
+  "arm": {
+    "id": "new_teacher_original17K",
+    "sources": [
+      "synthetic"
+    ],
+    "data_stage": "base"
+  },
+  "epochs": 7,
+  "steps": 7553,
+  "presentations": 120827,
+  "corpus_configs": 17261,
+  "source_exposures": {
+    "synthetic": 120827
+  },
+  "best": {
+    "step": 7553,
+    "presentations": 120827,
+    "objective": 0.8661899379000059,
+    "metrics": {
+      "synthetic_val862": {
+        "configs": 862,
+        "bases": 500,
+        "units": 500,
+        "C_over": {
+          "BHEFT": 0.9303437315471559,
+          "BUDA": 0.5050658656270336,
+          "CostFirst": 0.4581231268385847,
+          "Greedy": 0.7372163411652908,
+          "HEFT": 0.8661899379000059,
+          "JoinLookahead": 0.8769968065768236,
+          "MSLBL": 0.9269366240340662,
+          "PEFT": 0.8471384143203149,
+          "Portfolio": 1.014005151884631,
+          "RandomMean5": 0.4822951443446393,
+          "Teacher64": 1.0361825517466288
+        },
+        "feasible": true
+      }
+    }
+  },
+  "history": [
+    {
+      "step": 0,
+      "presentations": 0,
+      "objective": 1.0,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 1.179034583772241,
+            "BUDA": 0.6353190852461114,
+            "CostFirst": 0.5655520354559365,
+            "Greedy": 0.8635783801356586,
+            "HEFT": 1.0,
+            "JoinLookahead": 1.0199512082954216,
+            "MSLBL": 1.1695976238614127,
+            "PEFT": 0.9878746747145556,
+            "Portfolio": 1.2783156031174314,
+            "RandomMean5": 0.5872100550329733,
+            "Teacher64": 1.3094927826358502
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 100,
+      "presentations": 1600,
+      "objective": 0.9576945315920609,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 1.0698458901228467,
+            "BUDA": 0.5744646955250367,
+            "CostFirst": 0.5201426283878218,
+            "Greedy": 0.8212874208539429,
+            "HEFT": 0.9576945315920609,
+            "JoinLookahead": 0.9754868622488688,
+            "MSLBL": 1.0624636356163082,
+            "PEFT": 0.9443647467744,
+            "Portfolio": 1.1686171498526232,
+            "RandomMean5": 0.5418507744517518,
+            "Teacher64": 1.1957589081330198
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 200,
+      "presentations": 3200,
+      "objective": 0.9554384036057249,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 1.0668186545924971,
+            "BUDA": 0.5693450009932131,
+            "CostFirst": 0.5154112566155201,
+            "Greedy": 0.8138618888504224,
+            "HEFT": 0.9554384036057249,
+            "JoinLookahead": 0.968918279678773,
+            "MSLBL": 1.0579647233340885,
+            "PEFT": 0.9367979272892624,
+            "Portfolio": 1.159651378306197,
+            "RandomMean5": 0.5435045859974661,
+            "Teacher64": 1.1868212772136049
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 300,
+      "presentations": 4800,
+      "objective": 0.9375033492093947,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 1.0241115249071084,
+            "BUDA": 0.5554691502437678,
+            "CostFirst": 0.503306466995553,
+            "Greedy": 0.8025883432283453,
+            "HEFT": 0.9375033492093947,
+            "JoinLookahead": 0.9547210199238523,
+            "MSLBL": 1.0188098830513854,
+            "PEFT": 0.9215566933102382,
+            "Portfolio": 1.1204549041113017,
+            "RandomMean5": 0.5299369453497424,
+            "Teacher64": 1.145412558341421
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 400,
+      "presentations": 6400,
+      "objective": 0.923323210794904,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 1.0174768081298409,
+            "BUDA": 0.5454685715121831,
+            "CostFirst": 0.4939233389025141,
+            "Greedy": 0.7876514590951269,
+            "HEFT": 0.923323210794904,
+            "JoinLookahead": 0.9364851555696099,
+            "MSLBL": 1.0131911307073327,
+            "PEFT": 0.9051239542716571,
+            "Portfolio": 1.1085807903354676,
+            "RandomMean5": 0.5218492204491675,
+            "Teacher64": 1.1332859297609523
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 500,
+      "presentations": 8000,
+      "objective": 0.9244557051394316,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 1.0328352317839218,
+            "BUDA": 0.5469774408232507,
+            "CostFirst": 0.49538397862804256,
+            "Greedy": 0.7887064613580183,
+            "HEFT": 0.9244557051394316,
+            "JoinLookahead": 0.9372139998506378,
+            "MSLBL": 1.0294926779229596,
+            "PEFT": 0.9066820608756149,
+            "Portfolio": 1.1231285362500956,
+            "RandomMean5": 0.5174859346013306,
+            "Teacher64": 1.148020494675194
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 600,
+      "presentations": 9600,
+      "objective": 0.9161117993507747,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9991162601883397,
+            "BUDA": 0.5396181569179971,
+            "CostFirst": 0.48950357481900997,
+            "Greedy": 0.7790861327070189,
+            "HEFT": 0.9161117993507747,
+            "JoinLookahead": 0.9291341338230168,
+            "MSLBL": 0.9938520578594474,
+            "PEFT": 0.8967230726031251,
+            "Portfolio": 1.0900349329679693,
+            "RandomMean5": 0.5156513197419834,
+            "Teacher64": 1.114195734389739
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 700,
+      "presentations": 11200,
+      "objective": 0.9373548650489485,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 1.061887205058306,
+            "BUDA": 0.5631065467429404,
+            "CostFirst": 0.5076172593657411,
+            "Greedy": 0.802396868828644,
+            "HEFT": 0.9373548650489485,
+            "JoinLookahead": 0.9496231117669254,
+            "MSLBL": 1.0574983430576115,
+            "PEFT": 0.9182684857065361,
+            "Portfolio": 1.1529405280746783,
+            "RandomMean5": 0.529140422889777,
+            "Teacher64": 1.179745016336959
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 800,
+      "presentations": 12800,
+      "objective": 0.9079574321673253,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9908820269011629,
+            "BUDA": 0.5339197056244964,
+            "CostFirst": 0.4829047194347014,
+            "Greedy": 0.7778985072981837,
+            "HEFT": 0.9079574321673253,
+            "JoinLookahead": 0.9247663073157674,
+            "MSLBL": 0.989133633575491,
+            "PEFT": 0.894011347978621,
+            "Portfolio": 1.0843164672365357,
+            "RandomMean5": 0.5076518167341975,
+            "Teacher64": 1.1075926523493018
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 900,
+      "presentations": 14400,
+      "objective": 0.9055412088770023,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9937502046437096,
+            "BUDA": 0.5335849510321685,
+            "CostFirst": 0.4825368178459794,
+            "Greedy": 0.7725052572594591,
+            "HEFT": 0.9055412088770023,
+            "JoinLookahead": 0.917971297598678,
+            "MSLBL": 0.9880931170047993,
+            "PEFT": 0.8875126983274073,
+            "Portfolio": 1.0820756292746587,
+            "RandomMean5": 0.5071078545205432,
+            "Teacher64": 1.1063040732173044
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 1000,
+      "presentations": 16000,
+      "objective": 0.9033153075399082,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9854822536919414,
+            "BUDA": 0.532564369220402,
+            "CostFirst": 0.4819699575969031,
+            "Greedy": 0.7707949939645277,
+            "HEFT": 0.9033153075399082,
+            "JoinLookahead": 0.9156995297874108,
+            "MSLBL": 0.9815171978893039,
+            "PEFT": 0.8843811784342163,
+            "Portfolio": 1.0742708611350589,
+            "RandomMean5": 0.5069151802958523,
+            "Teacher64": 1.0982052826278357
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 1100,
+      "presentations": 17597,
+      "objective": 0.9058496772676514,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9768849988084388,
+            "BUDA": 0.5294656444990845,
+            "CostFirst": 0.4788487486837335,
+            "Greedy": 0.7680211083186698,
+            "HEFT": 0.9058496772676514,
+            "JoinLookahead": 0.9181364712559238,
+            "MSLBL": 0.9730254444503404,
+            "PEFT": 0.886150171144144,
+            "Portfolio": 1.0655185485027823,
+            "RandomMean5": 0.5096034302979693,
+            "Teacher64": 1.08836347065109
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 1200,
+      "presentations": 19197,
+      "objective": 0.921471050337985,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9939354031712652,
+            "BUDA": 0.5448615853931559,
+            "CostFirst": 0.4942030464321835,
+            "Greedy": 0.7840666862970685,
+            "HEFT": 0.921471050337985,
+            "JoinLookahead": 0.9339034331050022,
+            "MSLBL": 0.986500222878671,
+            "PEFT": 0.9015880004324163,
+            "Portfolio": 1.084418457346317,
+            "RandomMean5": 0.5240578296543985,
+            "Teacher64": 1.1087156203216182
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 1300,
+      "presentations": 20797,
+      "objective": 0.9056952419535127,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9928981572806783,
+            "BUDA": 0.5377937300531521,
+            "CostFirst": 0.4872780697017358,
+            "Greedy": 0.774791297871015,
+            "HEFT": 0.9056952419535127,
+            "JoinLookahead": 0.92015703268247,
+            "MSLBL": 0.9880476594041272,
+            "PEFT": 0.8874033538090138,
+            "Portfolio": 1.083697188632617,
+            "RandomMean5": 0.5039811398116402,
+            "Teacher64": 1.1073989899765593
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 1400,
+      "presentations": 22397,
+      "objective": 0.9081704436599535,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9804678569362753,
+            "BUDA": 0.5341628834993494,
+            "CostFirst": 0.48635553583600244,
+            "Greedy": 0.7735423177612846,
+            "HEFT": 0.9081704436599535,
+            "JoinLookahead": 0.9213910973740458,
+            "MSLBL": 0.9749823444199982,
+            "PEFT": 0.8894997894295414,
+            "Portfolio": 1.0704976436260965,
+            "RandomMean5": 0.5140034380644394,
+            "Teacher64": 1.0939358984555714
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 1500,
+      "presentations": 23997,
+      "objective": 0.9042275586752774,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9941602444795659,
+            "BUDA": 0.5331005028811767,
+            "CostFirst": 0.48442768037110934,
+            "Greedy": 0.7716222448506791,
+            "HEFT": 0.9042275586752774,
+            "JoinLookahead": 0.9169960158528778,
+            "MSLBL": 0.988764022617551,
+            "PEFT": 0.8860878562025353,
+            "Portfolio": 1.0821464423138503,
+            "RandomMean5": 0.5093430955020757,
+            "Teacher64": 1.1058963933847932
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 1600,
+      "presentations": 25597,
+      "objective": 0.9093116240327486,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 1.0030824722997336,
+            "BUDA": 0.5389687165420032,
+            "CostFirst": 0.48653043441491445,
+            "Greedy": 0.7758522508524267,
+            "HEFT": 0.9093116240327486,
+            "JoinLookahead": 0.9223411020222554,
+            "MSLBL": 0.9980869981009876,
+            "PEFT": 0.8915981658259393,
+            "Portfolio": 1.0906569789115566,
+            "RandomMean5": 0.5136880514643362,
+            "Teacher64": 1.1149694528937673
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 1700,
+      "presentations": 27197,
+      "objective": 0.8979764382932456,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9738833032124076,
+            "BUDA": 0.5282102279408778,
+            "CostFirst": 0.4808833160090884,
+            "Greedy": 0.7647907581655674,
+            "HEFT": 0.8979764382932456,
+            "JoinLookahead": 0.9100279512441838,
+            "MSLBL": 0.9682365597141173,
+            "PEFT": 0.879736899012127,
+            "Portfolio": 1.0613081603451615,
+            "RandomMean5": 0.5059195782591536,
+            "Teacher64": 1.0845318910053332
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 1800,
+      "presentations": 28797,
+      "objective": 0.9024247509100459,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9793337321037904,
+            "BUDA": 0.5336176904572723,
+            "CostFirst": 0.4833289626837027,
+            "Greedy": 0.7675923501612051,
+            "HEFT": 0.9024247509100459,
+            "JoinLookahead": 0.9144476294402918,
+            "MSLBL": 0.971829637902766,
+            "PEFT": 0.882548316676904,
+            "Portfolio": 1.0654815887881361,
+            "RandomMean5": 0.509642894872507,
+            "Teacher64": 1.0888350656098056
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 1900,
+      "presentations": 30397,
+      "objective": 0.902392654747163,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9736439780632594,
+            "BUDA": 0.5310886071735126,
+            "CostFirst": 0.48117834043012614,
+            "Greedy": 0.7672755315208635,
+            "HEFT": 0.902392654747163,
+            "JoinLookahead": 0.9147164882932687,
+            "MSLBL": 0.967446695654354,
+            "PEFT": 0.8823230599015979,
+            "Portfolio": 1.0605438971266807,
+            "RandomMean5": 0.510903353630181,
+            "Teacher64": 1.0840572101803725
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 2000,
+      "presentations": 31997,
+      "objective": 0.8828562073938838,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9515846062504679,
+            "BUDA": 0.517322336737433,
+            "CostFirst": 0.4682092871866779,
+            "Greedy": 0.7524032882054629,
+            "HEFT": 0.8828562073938838,
+            "JoinLookahead": 0.8955386661484631,
+            "MSLBL": 0.9495006127139081,
+            "PEFT": 0.8647263840007632,
+            "Portfolio": 1.038824369410991,
+            "RandomMean5": 0.493078554763116,
+            "Teacher64": 1.0612695837074084
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 2100,
+      "presentations": 33597,
+      "objective": 0.8939723903685116,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9855621720462492,
+            "BUDA": 0.5282927884525179,
+            "CostFirst": 0.4789292984583095,
+            "Greedy": 0.7652202930389237,
+            "HEFT": 0.8939723903685116,
+            "JoinLookahead": 0.9065073971454036,
+            "MSLBL": 0.9831420565258572,
+            "PEFT": 0.8756903606640527,
+            "Portfolio": 1.0724700626353272,
+            "RandomMean5": 0.5009669619606539,
+            "Teacher64": 1.0958608982477402
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 2200,
+      "presentations": 35194,
+      "objective": 0.888664642251866,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9688195342064168,
+            "BUDA": 0.5214912424835685,
+            "CostFirst": 0.4735691268740312,
+            "Greedy": 0.7570372820347876,
+            "HEFT": 0.888664642251866,
+            "JoinLookahead": 0.9013812454713053,
+            "MSLBL": 0.9636712991885713,
+            "PEFT": 0.8707454303009635,
+            "Portfolio": 1.0553160201978227,
+            "RandomMean5": 0.4979933329269058,
+            "Teacher64": 1.078743375554288
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 2300,
+      "presentations": 36794,
+      "objective": 0.8841258281452659,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9656685361608682,
+            "BUDA": 0.5183102134010907,
+            "CostFirst": 0.46912267846554084,
+            "Greedy": 0.7547477379631463,
+            "HEFT": 0.8841258281452659,
+            "JoinLookahead": 0.8961755460323017,
+            "MSLBL": 0.9634059383498302,
+            "PEFT": 0.8661187957934469,
+            "Portfolio": 1.0525969032681914,
+            "RandomMean5": 0.49434641794102036,
+            "Teacher64": 1.0753206273274747
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 2400,
+      "presentations": 38394,
+      "objective": 0.8828900381271232,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.959618835725539,
+            "BUDA": 0.5151345484947656,
+            "CostFirst": 0.46554149579201287,
+            "Greedy": 0.7507719479820224,
+            "HEFT": 0.8828900381271232,
+            "JoinLookahead": 0.8949835417500612,
+            "MSLBL": 0.955706515670107,
+            "PEFT": 0.8640412244378898,
+            "Portfolio": 1.0446946436969464,
+            "RandomMean5": 0.4954041106907268,
+            "Teacher64": 1.0678044282302888
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 2500,
+      "presentations": 39994,
+      "objective": 0.8917220988069333,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9788018548656549,
+            "BUDA": 0.5266657921068413,
+            "CostFirst": 0.4760676386180812,
+            "Greedy": 0.7636846371707607,
+            "HEFT": 0.8917220988069333,
+            "JoinLookahead": 0.9039370619099656,
+            "MSLBL": 0.9776848409425036,
+            "PEFT": 0.8751351330211004,
+            "Portfolio": 1.0686446168923753,
+            "RandomMean5": 0.5009227918309225,
+            "Teacher64": 1.092008648212496
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 2600,
+      "presentations": 41594,
+      "objective": 0.9051868222875603,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9762950030722298,
+            "BUDA": 0.5349812746961174,
+            "CostFirst": 0.4847303746623303,
+            "Greedy": 0.7698161769325113,
+            "HEFT": 0.9051868222875603,
+            "JoinLookahead": 0.9177973350652193,
+            "MSLBL": 0.9690521041749911,
+            "PEFT": 0.8860619309095319,
+            "Portfolio": 1.0637399463902824,
+            "RandomMean5": 0.514909804082161,
+            "Teacher64": 1.087301477877736
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 2700,
+      "presentations": 43194,
+      "objective": 0.894234337177903,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9687804079148813,
+            "BUDA": 0.5237091854687915,
+            "CostFirst": 0.474942242944377,
+            "Greedy": 0.7614903799061371,
+            "HEFT": 0.894234337177903,
+            "JoinLookahead": 0.9057439078048056,
+            "MSLBL": 0.965023553833617,
+            "PEFT": 0.8757165748971746,
+            "Portfolio": 1.056415628758916,
+            "RandomMean5": 0.5035002489988434,
+            "Teacher64": 1.0797724057258293
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 2800,
+      "presentations": 44794,
+      "objective": 0.9494828781214661,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 1.010492292892813,
+            "BUDA": 0.5488363133607307,
+            "CostFirst": 0.4975075362279339,
+            "Greedy": 0.8029208614476467,
+            "HEFT": 0.9494828781214661,
+            "JoinLookahead": 0.9619109366274572,
+            "MSLBL": 1.007083532867218,
+            "PEFT": 0.9272396359493772,
+            "Portfolio": 1.1106425608065085,
+            "RandomMean5": 0.5305803977870205,
+            "Teacher64": 1.1353391596954119
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 2900,
+      "presentations": 46394,
+      "objective": 0.8875754775977501,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9660577832895156,
+            "BUDA": 0.5207642508610538,
+            "CostFirst": 0.47253172268214827,
+            "Greedy": 0.7576849681617138,
+            "HEFT": 0.8875754775977501,
+            "JoinLookahead": 0.8997549657311543,
+            "MSLBL": 0.9637024337661398,
+            "PEFT": 0.869313476088282,
+            "Portfolio": 1.055593046114194,
+            "RandomMean5": 0.4921135293755995,
+            "Teacher64": 1.0787596642441981
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 3000,
+      "presentations": 47994,
+      "objective": 0.8785219420284883,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9515722108593804,
+            "BUDA": 0.514887475162668,
+            "CostFirst": 0.467367937577521,
+            "Greedy": 0.750669125558929,
+            "HEFT": 0.8785219420284883,
+            "JoinLookahead": 0.890656993173816,
+            "MSLBL": 0.9478539824116552,
+            "PEFT": 0.8608826154541646,
+            "Portfolio": 1.0372195920494278,
+            "RandomMean5": 0.4900325279674381,
+            "Teacher64": 1.0596803114566442
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 3100,
+      "presentations": 49594,
+      "objective": 0.8963326082621611,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9850765122477838,
+            "BUDA": 0.5275748260793459,
+            "CostFirst": 0.47832045735199263,
+            "Greedy": 0.765634010304723,
+            "HEFT": 0.8963326082621611,
+            "JoinLookahead": 0.9088315439658939,
+            "MSLBL": 0.9795899907946046,
+            "PEFT": 0.8774617173509955,
+            "Portfolio": 1.0698316886777257,
+            "RandomMean5": 0.5036391584169411,
+            "Teacher64": 1.0939784766161935
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 3200,
+      "presentations": 51194,
+      "objective": 0.8826637171578939,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9593072306810647,
+            "BUDA": 0.5185516869688244,
+            "CostFirst": 0.46929049635012976,
+            "Greedy": 0.7526461032392348,
+            "HEFT": 0.8826637171578939,
+            "JoinLookahead": 0.8932937482343509,
+            "MSLBL": 0.9571567667464691,
+            "PEFT": 0.8641077105049838,
+            "Portfolio": 1.0466102478144663,
+            "RandomMean5": 0.49195212979351416,
+            "Teacher64": 1.0693266948200333
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 3300,
+      "presentations": 52791,
+      "objective": 0.893951077270811,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9710024504200013,
+            "BUDA": 0.5272339899973981,
+            "CostFirst": 0.47802733452530294,
+            "Greedy": 0.7633903503682066,
+            "HEFT": 0.893951077270811,
+            "JoinLookahead": 0.9062017532262275,
+            "MSLBL": 0.969695319442486,
+            "PEFT": 0.8757393536631572,
+            "Portfolio": 1.0619205884364094,
+            "RandomMean5": 0.5017615674857102,
+            "Teacher64": 1.0849970975478465
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 3400,
+      "presentations": 54391,
+      "objective": 0.885599377487132,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9660862745864535,
+            "BUDA": 0.5232726418830181,
+            "CostFirst": 0.4741799424624666,
+            "Greedy": 0.7581259130224648,
+            "HEFT": 0.885599377487132,
+            "JoinLookahead": 0.8961872339684044,
+            "MSLBL": 0.9641226054874571,
+            "PEFT": 0.8661671000165774,
+            "Portfolio": 1.0536965884370144,
+            "RandomMean5": 0.49528486625988166,
+            "Teacher64": 1.0766906323188545
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 3500,
+      "presentations": 55991,
+      "objective": 0.8998600022812162,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9812027389269371,
+            "BUDA": 0.5334586127078764,
+            "CostFirst": 0.48349335442954666,
+            "Greedy": 0.7671455131685189,
+            "HEFT": 0.8998600022812162,
+            "JoinLookahead": 0.9121458981812963,
+            "MSLBL": 0.9738394458840511,
+            "PEFT": 0.8807545212849532,
+            "Portfolio": 1.06679174053026,
+            "RandomMean5": 0.5066456755018017,
+            "Teacher64": 1.0901346820414566
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 3600,
+      "presentations": 57591,
+      "objective": 0.8852913858873048,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9635567138880278,
+            "BUDA": 0.5209318674059197,
+            "CostFirst": 0.47111122926665133,
+            "Greedy": 0.7539453180655877,
+            "HEFT": 0.8852913858873048,
+            "JoinLookahead": 0.8963512606168242,
+            "MSLBL": 0.9596793013336311,
+            "PEFT": 0.8660238416479772,
+            "Portfolio": 1.0476331352975565,
+            "RandomMean5": 0.496735646685833,
+            "Teacher64": 1.0709234565914088
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 3700,
+      "presentations": 59191,
+      "objective": 0.8906787622548876,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9726730557876552,
+            "BUDA": 0.524284199369486,
+            "CostFirst": 0.4750416954943512,
+            "Greedy": 0.760021033621925,
+            "HEFT": 0.8906787622548876,
+            "JoinLookahead": 0.9018160130358012,
+            "MSLBL": 0.965961487135326,
+            "PEFT": 0.8710222463608248,
+            "Portfolio": 1.0558667398556976,
+            "RandomMean5": 0.49841996866412497,
+            "Teacher64": 1.0788375598409634
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 3800,
+      "presentations": 60791,
+      "objective": 0.8817142775717675,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9498537146304161,
+            "BUDA": 0.5146792577564907,
+            "CostFirst": 0.4664712635512354,
+            "Greedy": 0.7507468521319225,
+            "HEFT": 0.8817142775717675,
+            "JoinLookahead": 0.8923489394905756,
+            "MSLBL": 0.9457337013702464,
+            "PEFT": 0.8621273430613043,
+            "Portfolio": 1.035252511481497,
+            "RandomMean5": 0.4920551192538836,
+            "Teacher64": 1.0582423317564844
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 3900,
+      "presentations": 62391,
+      "objective": 0.8964030664193423,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9737346549026873,
+            "BUDA": 0.5268696207447461,
+            "CostFirst": 0.4755171351677836,
+            "Greedy": 0.7603486499886982,
+            "HEFT": 0.8964030664193423,
+            "JoinLookahead": 0.9084223646953717,
+            "MSLBL": 0.9669689344826057,
+            "PEFT": 0.8757056209309912,
+            "Portfolio": 1.0590578810132336,
+            "RandomMean5": 0.5050631033253614,
+            "Teacher64": 1.0823719130291303
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 4000,
+      "presentations": 63991,
+      "objective": 0.8938504132186215,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9706782376116824,
+            "BUDA": 0.5253450346951403,
+            "CostFirst": 0.4761742671597754,
+            "Greedy": 0.7605149123467853,
+            "HEFT": 0.8938504132186215,
+            "JoinLookahead": 0.9046896972325714,
+            "MSLBL": 0.9643414878349047,
+            "PEFT": 0.8736404248312394,
+            "Portfolio": 1.0562334887898532,
+            "RandomMean5": 0.5014373167697097,
+            "Teacher64": 1.079656695615887
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 4100,
+      "presentations": 65591,
+      "objective": 0.8835724147633007,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9577330404671162,
+            "BUDA": 0.5206095111765394,
+            "CostFirst": 0.471470964530933,
+            "Greedy": 0.7538231605230008,
+            "HEFT": 0.8835724147633007,
+            "JoinLookahead": 0.8945111990986718,
+            "MSLBL": 0.9552532501022752,
+            "PEFT": 0.8634136832992307,
+            "Portfolio": 1.0441466682180671,
+            "RandomMean5": 0.4953170397655045,
+            "Teacher64": 1.066945115429847
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 4200,
+      "presentations": 67191,
+      "objective": 0.8812392801901696,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9659243052251798,
+            "BUDA": 0.5195498939765596,
+            "CostFirst": 0.47051471752755303,
+            "Greedy": 0.7549685032876834,
+            "HEFT": 0.8812392801901696,
+            "JoinLookahead": 0.8940014825722398,
+            "MSLBL": 0.963547783620003,
+            "PEFT": 0.8632693200983319,
+            "Portfolio": 1.053632549239985,
+            "RandomMean5": 0.4920182276990419,
+            "Teacher64": 1.0763526124950844
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 4300,
+      "presentations": 68791,
+      "objective": 0.8772881044959897,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9544972447305589,
+            "BUDA": 0.5126692530405283,
+            "CostFirst": 0.463873501401595,
+            "Greedy": 0.7482282712920828,
+            "HEFT": 0.8772881044959897,
+            "JoinLookahead": 0.8897894121640454,
+            "MSLBL": 0.9502764908301016,
+            "PEFT": 0.8591309706348622,
+            "Portfolio": 1.0393682844805239,
+            "RandomMean5": 0.4882901736027074,
+            "Teacher64": 1.0620205942410406
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 4400,
+      "presentations": 70388,
+      "objective": 0.88003438017556,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9573820916248881,
+            "BUDA": 0.5153822389838999,
+            "CostFirst": 0.4668129751628961,
+            "Greedy": 0.7494013962371519,
+            "HEFT": 0.88003438017556,
+            "JoinLookahead": 0.8906519658342207,
+            "MSLBL": 0.9515993994140836,
+            "PEFT": 0.8603902234449808,
+            "Portfolio": 1.0401527622362037,
+            "RandomMean5": 0.493565787160134,
+            "Teacher64": 1.063078049740805
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 4500,
+      "presentations": 71988,
+      "objective": 0.8844058232385055,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9605928176196911,
+            "BUDA": 0.51932476458897,
+            "CostFirst": 0.4700602110308081,
+            "Greedy": 0.7535725573933384,
+            "HEFT": 0.8844058232385055,
+            "JoinLookahead": 0.8955731323267898,
+            "MSLBL": 0.9577815442725999,
+            "PEFT": 0.8652321817684859,
+            "Portfolio": 1.046979140738299,
+            "RandomMean5": 0.49633474745803186,
+            "Teacher64": 1.070026237852878
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 4600,
+      "presentations": 73588,
+      "objective": 0.9020286569612649,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9808599754348628,
+            "BUDA": 0.5328513500399951,
+            "CostFirst": 0.48241806107517043,
+            "Greedy": 0.7660861854129454,
+            "HEFT": 0.9020286569612649,
+            "JoinLookahead": 0.9128259142602115,
+            "MSLBL": 0.9735879544663589,
+            "PEFT": 0.8809792169878878,
+            "Portfolio": 1.0660804141804312,
+            "RandomMean5": 0.5119457327002906,
+            "Teacher64": 1.0901365560580536
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 4700,
+      "presentations": 75188,
+      "objective": 0.8820095634706231,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9584315382479396,
+            "BUDA": 0.5177208465581628,
+            "CostFirst": 0.4689831718192062,
+            "Greedy": 0.7506031156904899,
+            "HEFT": 0.8820095634706231,
+            "JoinLookahead": 0.8921906689806572,
+            "MSLBL": 0.9520685726469907,
+            "PEFT": 0.8622615771851732,
+            "Portfolio": 1.0419358189151375,
+            "RandomMean5": 0.4938181550856816,
+            "Teacher64": 1.0648922972168273
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 4800,
+      "presentations": 76788,
+      "objective": 0.8898348773544033,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9739185127089974,
+            "BUDA": 0.5246251574865591,
+            "CostFirst": 0.47539058607142476,
+            "Greedy": 0.7615690584002227,
+            "HEFT": 0.8898348773544033,
+            "JoinLookahead": 0.9009364807129225,
+            "MSLBL": 0.9733660915096172,
+            "PEFT": 0.8703162545489653,
+            "Portfolio": 1.061704613419913,
+            "RandomMean5": 0.4976423220928772,
+            "Teacher64": 1.0848814870611363
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 4900,
+      "presentations": 78388,
+      "objective": 0.8831964978980359,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9580608742573368,
+            "BUDA": 0.5207046439689563,
+            "CostFirst": 0.4712291152678815,
+            "Greedy": 0.7536637012770361,
+            "HEFT": 0.8831964978980359,
+            "JoinLookahead": 0.893892720734648,
+            "MSLBL": 0.9547992833001728,
+            "PEFT": 0.8640311035258916,
+            "Portfolio": 1.044649409178398,
+            "RandomMean5": 0.4944490824486393,
+            "Teacher64": 1.0674759844910322
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 5000,
+      "presentations": 79988,
+      "objective": 0.8838234735022572,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9605150401732019,
+            "BUDA": 0.519582980328906,
+            "CostFirst": 0.4716649458514324,
+            "Greedy": 0.7524034090703091,
+            "HEFT": 0.8838234735022572,
+            "JoinLookahead": 0.8945005151071929,
+            "MSLBL": 0.9538058888073508,
+            "PEFT": 0.8639003914894762,
+            "Portfolio": 1.0453892936950075,
+            "RandomMean5": 0.494565885856514,
+            "Teacher64": 1.068310904226688
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 5100,
+      "presentations": 81588,
+      "objective": 0.8801977010302185,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9555945594638285,
+            "BUDA": 0.5172755007824617,
+            "CostFirst": 0.4696760316228033,
+            "Greedy": 0.7524901681576681,
+            "HEFT": 0.8801977010302185,
+            "JoinLookahead": 0.8907903888447511,
+            "MSLBL": 0.9544608107333187,
+            "PEFT": 0.8624935554474623,
+            "Portfolio": 1.0450228960968355,
+            "RandomMean5": 0.4891653103707278,
+            "Teacher64": 1.0676184319285444
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 5200,
+      "presentations": 83188,
+      "objective": 0.8888952050703998,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9708538722309702,
+            "BUDA": 0.524098107150019,
+            "CostFirst": 0.4745551389110799,
+            "Greedy": 0.7598044936553094,
+            "HEFT": 0.8888952050703998,
+            "JoinLookahead": 0.8995704259547411,
+            "MSLBL": 0.9673271176340548,
+            "PEFT": 0.8677439373813265,
+            "Portfolio": 1.0554588109152503,
+            "RandomMean5": 0.49666344059049833,
+            "Teacher64": 1.078756991237461
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 5300,
+      "presentations": 84788,
+      "objective": 0.8751016699488321,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9438998969050669,
+            "BUDA": 0.5092377105386998,
+            "CostFirst": 0.4627947918607474,
+            "Greedy": 0.7444000860043615,
+            "HEFT": 0.8751016699488321,
+            "JoinLookahead": 0.8871720791465469,
+            "MSLBL": 0.938750636004831,
+            "PEFT": 0.8560564940503512,
+            "Portfolio": 1.0275437249410886,
+            "RandomMean5": 0.48817707626313767,
+            "Teacher64": 1.050224250995636
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 5400,
+      "presentations": 86385,
+      "objective": 0.8704019713536347,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9485149695037831,
+            "BUDA": 0.5081148976710718,
+            "CostFirst": 0.4616237014466878,
+            "Greedy": 0.7424203143046366,
+            "HEFT": 0.8704019713536347,
+            "JoinLookahead": 0.8814283389881649,
+            "MSLBL": 0.9434562964041814,
+            "PEFT": 0.8518931474965543,
+            "Portfolio": 1.0317520157638205,
+            "RandomMean5": 0.48320134151381006,
+            "Teacher64": 1.0543382063176907
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 5500,
+      "presentations": 87985,
+      "objective": 0.8788718559232047,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9545197658257083,
+            "BUDA": 0.5152358968652145,
+            "CostFirst": 0.4677742220366339,
+            "Greedy": 0.7492222283875742,
+            "HEFT": 0.8788718559232047,
+            "JoinLookahead": 0.8895966171500795,
+            "MSLBL": 0.949848811406877,
+            "PEFT": 0.8595726854955794,
+            "Portfolio": 1.0385257326670534,
+            "RandomMean5": 0.4916631585815458,
+            "Teacher64": 1.0609220057223148
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 5600,
+      "presentations": 89585,
+      "objective": 0.8920053709808344,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9670737064916981,
+            "BUDA": 0.5258360030860456,
+            "CostFirst": 0.47591841967461956,
+            "Greedy": 0.7583642878371927,
+            "HEFT": 0.8920053709808344,
+            "JoinLookahead": 0.9029511631592232,
+            "MSLBL": 0.9604988860970546,
+            "PEFT": 0.8712256805433604,
+            "Portfolio": 1.0504617942451475,
+            "RandomMean5": 0.5035256153007907,
+            "Teacher64": 1.073917032376007
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 5700,
+      "presentations": 91185,
+      "objective": 0.8847952027413162,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9677950273379808,
+            "BUDA": 0.5181776525592133,
+            "CostFirst": 0.46946341534563557,
+            "Greedy": 0.7558381783156551,
+            "HEFT": 0.8847952027413162,
+            "JoinLookahead": 0.8977569722168295,
+            "MSLBL": 0.9627509296956852,
+            "PEFT": 0.866739481809199,
+            "Portfolio": 1.0518062557406176,
+            "RandomMean5": 0.49456833631382274,
+            "Teacher64": 1.074883635779607
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 5800,
+      "presentations": 92785,
+      "objective": 0.884887482296522,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9608329071533644,
+            "BUDA": 0.5204616881128303,
+            "CostFirst": 0.47224372488936267,
+            "Greedy": 0.7533765716991918,
+            "HEFT": 0.884887482296522,
+            "JoinLookahead": 0.8957190463572177,
+            "MSLBL": 0.9547445941894961,
+            "PEFT": 0.8649278577568469,
+            "Portfolio": 1.0451820277000912,
+            "RandomMean5": 0.4956094599312041,
+            "Teacher64": 1.0685250882652284
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 5900,
+      "presentations": 94385,
+      "objective": 0.8915689012608491,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9695002818424852,
+            "BUDA": 0.5200002360901075,
+            "CostFirst": 0.47025240386274814,
+            "Greedy": 0.7571161727821468,
+            "HEFT": 0.8915689012608491,
+            "JoinLookahead": 0.9021582703352111,
+            "MSLBL": 0.9643087903714731,
+            "PEFT": 0.8711134580205795,
+            "Portfolio": 1.0555509457044325,
+            "RandomMean5": 0.4983228187223052,
+            "Teacher64": 1.0787971645657946
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 6000,
+      "presentations": 95985,
+      "objective": 0.8805903960503882,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9657012681461784,
+            "BUDA": 0.5151666142967486,
+            "CostFirst": 0.46721627522736436,
+            "Greedy": 0.7502027473709906,
+            "HEFT": 0.8805903960503882,
+            "JoinLookahead": 0.8913496063344524,
+            "MSLBL": 0.9604961438307458,
+            "PEFT": 0.8626024946466618,
+            "Portfolio": 1.0494396909048078,
+            "RandomMean5": 0.49226859166880177,
+            "Teacher64": 1.0726688938108457
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 6100,
+      "presentations": 97585,
+      "objective": 0.8880998620002283,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9645460099905662,
+            "BUDA": 0.5241736989327294,
+            "CostFirst": 0.47354476339419377,
+            "Greedy": 0.7554341443632067,
+            "HEFT": 0.8880998620002283,
+            "JoinLookahead": 0.8994432938899308,
+            "MSLBL": 0.9593328699344288,
+            "PEFT": 0.8685387185517479,
+            "Portfolio": 1.0496691447091213,
+            "RandomMean5": 0.5005278591697304,
+            "Teacher64": 1.0732759570585542
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 6200,
+      "presentations": 99185,
+      "objective": 0.8880984612527953,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.980653346541996,
+            "BUDA": 0.5221435374261456,
+            "CostFirst": 0.47197904380835054,
+            "Greedy": 0.7578149557838783,
+            "HEFT": 0.8880984612527953,
+            "JoinLookahead": 0.8988562509589221,
+            "MSLBL": 0.9777860726439229,
+            "PEFT": 0.869337110725044,
+            "Portfolio": 1.0667006754344452,
+            "RandomMean5": 0.498423765156651,
+            "Teacher64": 1.0900112730922242
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 6300,
+      "presentations": 100785,
+      "objective": 0.877003140462693,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9492961677274101,
+            "BUDA": 0.5128362308706294,
+            "CostFirst": 0.46326844582640775,
+            "Greedy": 0.7463467417458923,
+            "HEFT": 0.877003140462693,
+            "JoinLookahead": 0.8876733842464499,
+            "MSLBL": 0.9461688168763213,
+            "PEFT": 0.8573283657787064,
+            "Portfolio": 1.0321165611721104,
+            "RandomMean5": 0.49095741699723766,
+            "Teacher64": 1.0545453032894463
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 6400,
+      "presentations": 102385,
+      "objective": 0.8823465069956639,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9522644415018806,
+            "BUDA": 0.5174866681551671,
+            "CostFirst": 0.46816722628081003,
+            "Greedy": 0.7500954042107287,
+            "HEFT": 0.8823465069956639,
+            "JoinLookahead": 0.8929705997948947,
+            "MSLBL": 0.9469724785550007,
+            "PEFT": 0.8619387438224575,
+            "Portfolio": 1.0371757120821343,
+            "RandomMean5": 0.4942936024990627,
+            "Teacher64": 1.0595851176325268
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 6500,
+      "presentations": 103982,
+      "objective": 0.8856379050100275,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9685544047293307,
+            "BUDA": 0.5209310162826633,
+            "CostFirst": 0.46947965637090205,
+            "Greedy": 0.7537851915670772,
+            "HEFT": 0.8856379050100275,
+            "JoinLookahead": 0.8961470613524454,
+            "MSLBL": 0.9647774859459012,
+            "PEFT": 0.8656772143283964,
+            "Portfolio": 1.053114224763331,
+            "RandomMean5": 0.49602634272328955,
+            "Teacher64": 1.0765648105336174
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 6600,
+      "presentations": 105582,
+      "objective": 0.8769945235142996,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9472184623629705,
+            "BUDA": 0.5127290502914563,
+            "CostFirst": 0.4643426713996253,
+            "Greedy": 0.7453424533466404,
+            "HEFT": 0.8769945235142996,
+            "JoinLookahead": 0.8875037010295014,
+            "MSLBL": 0.9436212330921322,
+            "PEFT": 0.857682132917962,
+            "Portfolio": 1.0324024848305173,
+            "RandomMean5": 0.48772074420148953,
+            "Teacher64": 1.0547476383995023
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 6700,
+      "presentations": 107182,
+      "objective": 0.8842374449125026,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9657614951482584,
+            "BUDA": 0.5184668450710299,
+            "CostFirst": 0.4690219674170982,
+            "Greedy": 0.753100995397689,
+            "HEFT": 0.8842374449125026,
+            "JoinLookahead": 0.8950122281396098,
+            "MSLBL": 0.9604661072529035,
+            "PEFT": 0.865633379819068,
+            "Portfolio": 1.0474842321188576,
+            "RandomMean5": 0.4959521538203134,
+            "Teacher64": 1.0711042499433971
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 6800,
+      "presentations": 108782,
+      "objective": 0.882860350539821,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9642044514935004,
+            "BUDA": 0.5152163967238087,
+            "CostFirst": 0.4660182897661931,
+            "Greedy": 0.7515849640190341,
+            "HEFT": 0.882860350539821,
+            "JoinLookahead": 0.8932813541689713,
+            "MSLBL": 0.9589744446914987,
+            "PEFT": 0.8633879438741591,
+            "Portfolio": 1.046430436365233,
+            "RandomMean5": 0.49374366392393176,
+            "Teacher64": 1.0701854545229756
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 6900,
+      "presentations": 110382,
+      "objective": 0.8793884513689678,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9576041483746148,
+            "BUDA": 0.514948163797662,
+            "CostFirst": 0.4658151046912683,
+            "Greedy": 0.7479349533707768,
+            "HEFT": 0.8793884513689678,
+            "JoinLookahead": 0.8900613669635044,
+            "MSLBL": 0.9522716417276951,
+            "PEFT": 0.8601075055628588,
+            "Portfolio": 1.0406926165995416,
+            "RandomMean5": 0.49168908015543544,
+            "Teacher64": 1.0640719443937063
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 7000,
+      "presentations": 111982,
+      "objective": 0.8813949103803129,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9463343621166794,
+            "BUDA": 0.5155965461749444,
+            "CostFirst": 0.46723317723528823,
+            "Greedy": 0.7491626345493072,
+            "HEFT": 0.8813949103803129,
+            "JoinLookahead": 0.8925158951252326,
+            "MSLBL": 0.9426978106592417,
+            "PEFT": 0.8617354255735887,
+            "Portfolio": 1.0320465432422778,
+            "RandomMean5": 0.4943522004160489,
+            "Teacher64": 1.054467984254654
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 7100,
+      "presentations": 113582,
+      "objective": 0.8824509274320971,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9588146822581868,
+            "BUDA": 0.5189160131202322,
+            "CostFirst": 0.46990365620477076,
+            "Greedy": 0.750887137502291,
+            "HEFT": 0.8824509274320971,
+            "JoinLookahead": 0.8931610704593858,
+            "MSLBL": 0.9540668380587821,
+            "PEFT": 0.8624798186560181,
+            "Portfolio": 1.0427796282631503,
+            "RandomMean5": 0.4957206178222803,
+            "Teacher64": 1.0654552629586924
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 7200,
+      "presentations": 115182,
+      "objective": 0.8800201946115646,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9456935565846959,
+            "BUDA": 0.5151760131761646,
+            "CostFirst": 0.46646153181127703,
+            "Greedy": 0.7479848984210363,
+            "HEFT": 0.8800201946115646,
+            "JoinLookahead": 0.8910254386097718,
+            "MSLBL": 0.9410401189395294,
+            "PEFT": 0.860060626234845,
+            "Portfolio": 1.0298145751089691,
+            "RandomMean5": 0.4925685199855092,
+            "Teacher64": 1.0520180114265654
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 7300,
+      "presentations": 116782,
+      "objective": 0.8857573515941787,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9583875733935041,
+            "BUDA": 0.5201672514322461,
+            "CostFirst": 0.47039293658378284,
+            "Greedy": 0.7521978208283787,
+            "HEFT": 0.8857573515941787,
+            "JoinLookahead": 0.8962432618758832,
+            "MSLBL": 0.9533540374699105,
+            "PEFT": 0.8650953642887392,
+            "Portfolio": 1.0432569882572924,
+            "RandomMean5": 0.49785309596519356,
+            "Teacher64": 1.0658483250958581
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 7400,
+      "presentations": 118382,
+      "objective": 0.8688115452353687,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9454493098111492,
+            "BUDA": 0.5081811987224975,
+            "CostFirst": 0.4605029061113678,
+            "Greedy": 0.741538172422448,
+            "HEFT": 0.8688115452353687,
+            "JoinLookahead": 0.8799827064503416,
+            "MSLBL": 0.9407977256241212,
+            "PEFT": 0.850838862397315,
+            "Portfolio": 1.0287584840465762,
+            "RandomMean5": 0.4825853916316071,
+            "Teacher64": 1.051345371669975
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 7500,
+      "presentations": 119982,
+      "objective": 0.8819639164957277,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9500508121344147,
+            "BUDA": 0.5176876543549499,
+            "CostFirst": 0.46887916717878153,
+            "Greedy": 0.7496498055322217,
+            "HEFT": 0.8819639164957277,
+            "JoinLookahead": 0.8926473432212226,
+            "MSLBL": 0.9445122464036065,
+            "PEFT": 0.8619295312393868,
+            "Portfolio": 1.0338074469520917,
+            "RandomMean5": 0.4951625373792514,
+            "Teacher64": 1.0566151926449623
+          },
+          "feasible": true
+        }
+      }
+    },
+    {
+      "step": 7553,
+      "presentations": 120827,
+      "objective": 0.8661899379000059,
+      "metrics": {
+        "synthetic_val862": {
+          "configs": 862,
+          "bases": 500,
+          "units": 500,
+          "C_over": {
+            "BHEFT": 0.9303437315471559,
+            "BUDA": 0.5050658656270336,
+            "CostFirst": 0.4581231268385847,
+            "Greedy": 0.7372163411652908,
+            "HEFT": 0.8661899379000059,
+            "JoinLookahead": 0.8769968065768236,
+            "MSLBL": 0.9269366240340662,
+            "PEFT": 0.8471384143203149,
+            "Portfolio": 1.014005151884631,
+            "RandomMean5": 0.4822951443446393,
+            "Teacher64": 1.0361825517466288
+          },
+          "feasible": true
+        }
+      }
+    }
+  ],
+  "training_seconds": 1259.5912436384824,
+  "evaluation_seconds": 826.621947288746,
+  "data_binding": {
+    "config": "81603efff38a83929ff8f7d40027252eb0cfe2fc56592184308745e77c654157",
+    "teacher_manifest": "cb5f672f405029b09f682dc5439200230dc2f061f9b7f115e2bc3b69afb14715",
+    "teacher_database": "34d770fe4e217061073ee96ac9863ab13170808ab07cf92f14a5edd1a40ccd15",
+    "validation_database": "745c64c797f1969b111ae3e450139f91b13ed2134f471792ae67217f581c3f0d",
+    "implementation": "ca318d9cd6a8c461d24cbd8a3ad0f478f787e6ebd051ec90404c6e1f32fab3e7",
+    "physical_training_helpers": "2f634edd97384cff77fd959ff593b7426d681ff90f4d3d19111537547fc00fae",
+    "epoch_update": "95674fb9157a062771301ca9a8ecd93de5a04af7590a16703cd80332eaa58495",
+    "inherited_trainer": "f0723ba4741791e36ac8a13376b10387ab17ee01b7a4015c5b9cc078487be2d1",
+    "helpers": "756c08f99a9d939b2df173f7913d5898e2226aa295e582a12295e1bd99c948ee",
+    "sampler": "8e28d106a065c8a4c90eb93704674a876b872971d170de3e1422289f1e7d836a",
+    "model": "eb3232135bc7ca3cfcc4649a489b10e5cf97f771441add290f8ab156ad038e84",
+    "decoder": "22c3004e41187c7617c65846034340ec7c255c8a32026cfb390edf48151cb130",
+    "plotting": "d2eaae188cb04b332576477e8ff8b8d1daae5b05553505b4ceb68e2dffad1c97"
+  },
+  "evaluation_used_for_tuning": true,
+  "single_seed_exploratory": true,
+  "automatic_extension": false
+}

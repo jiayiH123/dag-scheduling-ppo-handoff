@@ -1,0 +1,17 @@
+{
+  "run": "runs/faithful_external_20261102",
+  "protocol": "protocols/faithful_external_20261102.md",
+  "train_database": "runs/synthetic_transfer_20261031/data_base/public.sqlite3",
+  "validation_database": "runs/sft_three_panel_20261101/data/validation.sqlite3",
+  "train_configs": 17261,
+  "val_configs": 862,
+  "seeds": [11,22,33],
+  "cai": {"rates": [0.0005,0.0001,0.001], "epochs": 7, "batch": 16, "samples": 4, "eval_updates": 500},
+  "giph": {"rates": [0.01,0.003,0.001], "epochs": 1, "gamma": 0.97, "moves_per_task": 2, "embedding": 10, "hidden": 16, "eval_episodes": 4096, "final_sampling_seeds": [101,102,103,104,105]},
+  "python": "/opt/miniconda3/envs/dag_env/bin/python",
+  "plot_python": "/opt/miniconda3/envs/dag-research/bin/python",
+  "primary_metric": "base_macro_C_HEFT",
+  "selection_used_VAL": true,
+  "maximum_restarts": 2,
+  "automatic_extension": false
+}

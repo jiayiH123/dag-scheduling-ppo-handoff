@@ -1,0 +1,7 @@
+# Install torch for the target CPU/CUDA platform separately.
+numpy==1.26.4
+ortools==9.14.6206
+networkx>=2.8,<4
+matplotlib>=3.8,<4
+psutil>=5.9,<8
+requests>=2.31,<3

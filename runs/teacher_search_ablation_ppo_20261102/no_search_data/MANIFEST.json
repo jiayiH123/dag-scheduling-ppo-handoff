@@ -1,0 +1,9 @@
+{
+  "status": "complete",
+  "portable_logical_snapshot": true,
+  "configs": 17261,
+  "bases": 10000,
+  "graph_and_action_caches": "generated on demand",
+  "database_sha256": "a3dc72998d2a68897a060f2e0394e1870a48a190e0d42617e41bc1fe67d6cd23",
+  "packed_manifest_sha256": "6d3482bc6c6cac00e73a98d2f97029025b99d5e716e4f7c7e3bcbd3e16fc8a91"
+}

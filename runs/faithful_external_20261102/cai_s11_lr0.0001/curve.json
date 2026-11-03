@@ -1,0 +1,254 @@
+[
+  {
+    "unit": 0,
+    "action_seed": 101,
+    "variants": {
+      "CAI": {
+        "configs": 862,
+        "bases": 500,
+        "base_macro": 1.166296448859076,
+        "config_mean": 1.180801646509777,
+        "wins": 91,
+        "ties": 95,
+        "losses": 676,
+        "all_feasible": true
+      }
+    },
+    "primary": 1.166296448859076,
+    "seconds": 27.80446945800213
+  },
+  {
+    "unit": 500,
+    "action_seed": 101,
+    "variants": {
+      "CAI": {
+        "configs": 862,
+        "bases": 500,
+        "base_macro": 1.234019450681093,
+        "config_mean": 1.2441713549407756,
+        "wins": 81,
+        "ties": 60,
+        "losses": 721,
+        "all_feasible": true
+      }
+    },
+    "primary": 1.234019450681093,
+    "seconds": 25.48901916696923
+  },
+  {
+    "unit": 1000,
+    "action_seed": 101,
+    "variants": {
+      "CAI": {
+        "configs": 862,
+        "bases": 500,
+        "base_macro": 1.2270892180019342,
+        "config_mean": 1.2372967925882323,
+        "wins": 77,
+        "ties": 58,
+        "losses": 727,
+        "all_feasible": true
+      }
+    },
+    "primary": 1.2270892180019342,
+    "seconds": 27.063810874999035
+  },
+  {
+    "unit": 1079,
+    "action_seed": 101,
+    "variants": {
+      "CAI": {
+        "configs": 862,
+        "bases": 500,
+        "base_macro": 1.2255900786936498,
+        "config_mean": 1.2361004002874598,
+        "wins": 80,
+        "ties": 62,
+        "losses": 720,
+        "all_feasible": true
+      }
+    },
+    "primary": 1.2255900786936498,
+    "seconds": 27.01732991595054
+  },
+  {
+    "unit": 1500,
+    "action_seed": 101,
+    "variants": {
+      "CAI": {
+        "configs": 862,
+        "bases": 500,
+        "base_macro": 1.2212316628141324,
+        "config_mean": 1.23182555904366,
+        "wins": 78,
+        "ties": 63,
+        "losses": 721,
+        "all_feasible": true
+      }
+    },
+    "primary": 1.2212316628141324,
+    "seconds": 27.733338707999792
+  },
+  {
+    "unit": 2000,
+    "action_seed": 101,
+    "variants": {
+      "CAI": {
+        "configs": 862,
+        "bases": 500,
+        "base_macro": 1.2381929430572858,
+        "config_mean": 1.2497512525712704,
+        "wins": 76,
+        "ties": 56,
+        "losses": 730,
+        "all_feasible": true
+      }
+    },
+    "primary": 1.2381929430572858,
+    "seconds": 38.23222137498669
+  },
+  {
+    "unit": 2158,
+    "action_seed": 101,
+    "variants": {
+      "CAI": {
+        "configs": 862,
+        "bases": 500,
+        "base_macro": 1.2372661669644873,
+        "config_mean": 1.2485798603345277,
+        "wins": 71,
+        "ties": 61,
+        "losses": 730,
+        "all_feasible": true
+      }
+    },
+    "primary": 1.2372661669644873,
+    "seconds": 34.5999139159685
+  },
+  {
+    "unit": 2500,
+    "action_seed": 101,
+    "variants": {
+      "CAI": {
+        "configs": 862,
+        "bases": 500,
+        "base_macro": 1.2376593745835747,
+        "config_mean": 1.2495564914922697,
+        "wins": 81,
+        "ties": 59,
+        "losses": 722,
+        "all_feasible": true
+      }
+    },
+    "primary": 1.2376593745835747,
+    "seconds": 26.441792583966162
+  },
+  {
+    "unit": 3000,
+    "action_seed": 101,
+    "variants": {
+      "CAI": {
+        "configs": 862,
+        "bases": 500,
+        "base_macro": 1.2467422578417433,
+        "config_mean": 1.258586677405096,
+        "wins": 71,
+        "ties": 65,
+        "losses": 726,
+        "all_feasible": true
+      }
+    },
+    "primary": 1.2467422578417433,
+    "seconds": 32.86295458301902
+  },
+  {
+    "unit": 3237,
+    "action_seed": 101,
+    "variants": {
+      "CAI": {
+        "configs": 862,
+        "bases": 500,
+        "base_macro": 1.2388338615855043,
+        "config_mean": 1.2506423558251896,
+        "wins": 75,
+        "ties": 61,
+        "losses": 726,
+        "all_feasible": true
+      }
+    },
+    "primary": 1.2388338615855043,
+    "seconds": 27.273133707989473
+  },
+  {
+    "unit": 3500,
+    "action_seed": 101,
+    "variants": {
+      "CAI": {
+        "configs": 862,
+        "bases": 500,
+        "base_macro": 1.2351513631214763,
+        "config_mean": 1.2464310443448245,
+        "wins": 76,
+        "ties": 63,
+        "losses": 723,
+        "all_feasible": true
+      }
+    },
+    "primary": 1.2351513631214763,
+    "seconds": 27.194763542036526
+  },
+  {
+    "unit": 4000,
+    "action_seed": 101,
+    "variants": {
+      "CAI": {
+        "configs": 862,
+        "bases": 500,
+        "base_macro": 1.2385964841201744,
+        "config_mean": 1.250543613026907,
+        "wins": 79,
+        "ties": 62,
+        "losses": 721,
+        "all_feasible": true
+      }
+    },
+    "primary": 1.2385964841201744,
+    "seconds": 29.580745207960717
+  },
+  {
+    "unit": 4316,
+    "action_seed": 101,
+    "variants": {
+      "CAI": {
+        "configs": 862,
+        "bases": 500,
+        "base_macro": 1.2336402160926123,
+        "config_mean": 1.2474211555474628,
+        "wins": 75,
+        "ties": 61,
+        "losses": 726,
+        "all_feasible": true
+      }
+    },
+    "primary": 1.2336402160926123,
+    "seconds": 34.25854770897422
+  },
+  {
+    "unit": 4500,
+    "action_seed": 101,
+    "variants": {
+      "CAI": {
+        "configs": 862,
+        "bases": 500,
+        "base_macro": 1.2367701492091616,
+        "config_mean": 1.248729189510848,
+        "wins": 74,
+        "ties": 61,
+        "losses": 727,
+        "all_feasible": true
+      }
+    },
+    "primary": 1.2367701492091616,
+    "seconds": 32.893657249980606
+  }
+]

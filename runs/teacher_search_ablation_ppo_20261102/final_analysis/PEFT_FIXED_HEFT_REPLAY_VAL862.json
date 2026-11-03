@@ -1,0 +1,10 @@
+{
+  "configs": 862,
+  "bases": 500,
+  "definition": "native PEFT mapping replayed under fixed HEFT order, as in Teacher candidates; not PEFT rerun with forced HEFT order",
+  "C_HEFT_base_macro": 1.0349769536727493,
+  "C_HEFT_config_mean": 1.0360561583614636,
+  "PEFT_mapping_replay_faster": 213,
+  "equal": 292,
+  "HEFT_faster": 357
+}

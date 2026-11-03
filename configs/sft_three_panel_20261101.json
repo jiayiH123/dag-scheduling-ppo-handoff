@@ -1,0 +1,61 @@
+{
+  "schema": "sft-three-panel-data-scope-v1",
+  "scope_version": "20261101-full-wf-v1",
+  "status": "agreed_data_scope_not_training_launch",
+  "protocol": "protocols/sft_three_panel_20261101.md",
+  "train": {
+    "source": "original_synthetic",
+    "directory": "data/structured_scheduling_v1",
+    "split": "train",
+    "view": "daglab.structured_unique.iter_unique_rows",
+    "expected_configurations": 17261,
+    "expected_base_graphs": 10000,
+    "expected_teacher_actions": 1122860
+  },
+  "validation": [
+    {
+      "id": "synthetic_val862",
+      "source": "original_synthetic",
+      "directory": "data/structured_scheduling_v1",
+      "split": "val",
+      "view": "daglab.structured_unique.iter_unique_rows",
+      "expected_configurations": 862,
+      "expected_base_graphs": 500
+    },
+    {
+      "id": "wf_by_application",
+      "source": "wfinstances",
+      "directory": "runs/synthetic_transfer_20261031/data_base",
+      "storage": "public.sqlite3",
+      "role": "eval",
+      "registry": "data/wf_application_panels_20261101/REGISTRY.json",
+      "selection_version": "all27-v1",
+      "selected_application_engine_groups": "all_registry_groups",
+      "expected_configurations": 960,
+      "expected_executions": 120,
+      "expected_topology_groups_WL16": 83,
+      "report_by": ["application_engine", "application", "task_count", "application_engine_task_count"],
+      "scope_can_change_using_validation_results": true,
+      "scope_change_requires_new_version_and_member_list": true,
+      "preserve_full_group_history": true
+    },
+    {
+      "id": "parrot_pattern_templates",
+      "source": "constructed_from_public_application_patterns",
+      "directory": "data/agent_workflow_val_20261101/prepared/templates",
+      "split": "val",
+      "view": "daglab.structured_unique.iter_unique_rows",
+      "expected_configurations": 498,
+      "expected_templates": 8,
+      "families": ["template/multifile_coding", "template/document_mapreduce"],
+      "report_by": ["family", "public_plan_id", "task_count"]
+    }
+  ],
+  "evaluation_used_for_tuning": true,
+  "evaluation_teacher_actions_used_for_training": false,
+  "validation_reporting": "three separate panels, per-application WF and per-family template breakdowns",
+  "checkpoint_selection_scalar": null,
+  "training_hyperparameters_changed_by_this_scope": false,
+  "excluded_from_current_active_validation": ["synthetic_test1718", "tpch_composite", "worfbench_native", "worfbench_refined"],
+  "existing_datasets_and_historical_results_retained": true
+}

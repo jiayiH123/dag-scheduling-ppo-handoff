@@ -1,0 +1,101 @@
+{
+  "status": "initialized",
+  "created": "2026-10-31T05:26:19+08:00",
+  "binding": {
+    "data": "4a5fe4016734a7f66386f77d55a0ec3a516d61577aa32b0bec94dd1592fa7d93",
+    "epoch_config": "d2d769a3d1affd90f4589fa4f1c33dc616677b35bf76ae2f5c059ecd4e6d3478",
+    "arm": {
+      "id": "S0_original",
+      "sources": [
+        "synthetic"
+      ],
+      "data_stage": "base"
+    },
+    "implementation": "95674fb9157a062771301ca9a8ecd93de5a04af7590a16703cd80332eaa58495",
+    "physical_training_helpers": "2f634edd97384cff77fd959ff593b7426d681ff90f4d3d19111537547fc00fae",
+    "sampler": "8e28d106a065c8a4c90eb93704674a876b872971d170de3e1422289f1e7d836a",
+    "worker": "1192ba406adac42ef198c056cf28dbc9d38377f284b6dfa0b4c5c4ff1a901831",
+    "data_helpers": "4733428826bcfdfff5a2ec7c3f31ab70d292055680ca1a21b60d76bb685ccebd"
+  },
+  "seed": 28,
+  "architecture": "StateActor both edge_attention32x2",
+  "parameters": 32612,
+  "optimizer": {
+    "name": "Adam",
+    "lr": 0.001,
+    "betas": [
+      0.9,
+      0.999
+    ],
+    "eps": 1e-08,
+    "weight_decay": 0,
+    "clip": 1,
+    "scheduler": null
+  },
+  "epochs": 7,
+  "corpus_configs": 17261,
+  "updates_per_epoch": 1079,
+  "total_updates": 7553,
+  "total_graph_presentations": 120827,
+  "batch_size": 16,
+  "last_batch_graphs": 13,
+  "loss": "mean teacher CE within graph; mean over actual batch size including epoch tail",
+  "sampling": "full independent shuffle of all configurations once per epoch; no source reweighting",
+  "score_bounds": [
+    8,
+    8,
+    2,
+    2
+  ],
+  "plan_sha256": "7829be30cf7d1173ca2a46347ef9007ac4beee806f168694aae09c1eda865655",
+  "full_test_observation_steps": [
+    0,
+    216,
+    432,
+    648,
+    864,
+    1079,
+    1295,
+    1511,
+    1727,
+    1943,
+    2158,
+    2374,
+    2590,
+    2806,
+    3022,
+    3237,
+    3453,
+    3669,
+    3885,
+    4101,
+    4316,
+    4532,
+    4748,
+    4964,
+    5180,
+    5395,
+    5611,
+    5827,
+    6043,
+    6259,
+    6474,
+    6690,
+    6906,
+    7122,
+    7338,
+    7553
+  ],
+  "diagnostic_steps": [
+    2158,
+    4316,
+    6474,
+    7553
+  ],
+  "evaluation_used_for_tuning": true,
+  "automatic_extension": false,
+  "one_forward_per_graph": true,
+  "single_training_seed": true,
+  "code_commit": "0b8e2ce587b4a35ad72a9e0c261ffd61da5ee2e1",
+  "initial_parameters_sha256": "8d2aa1a9cac084b52431d19c18294bed10d7309327766b9beed34c69c2d6da87"
+}

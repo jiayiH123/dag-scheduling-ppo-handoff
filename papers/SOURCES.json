@@ -1,0 +1,37 @@
+{
+  "GOODRL.pdf": {
+    "url": "https://proceedings.iclr.cc/paper_files/paper/2025/file/370fa2e691f57eb319bc263a07dad4a5-Paper-Conference.pdf",
+    "sha256": "e365900dfc777d6cefd5ef375d324dc3cd3e3b1aa82fe5d2bf7e983697dd6dbe",
+    "bytes": 5503332
+  },
+  "WeCAN_v2.pdf": {
+    "url": "https://arxiv.org/pdf/2603.23249v2",
+    "sha256": "843e29bf049ba54552641b0f83977e90efef2f166c1112b96c1c4dfe89d8bffb",
+    "bytes": 16482012
+  },
+  "GiPH.pdf": {
+    "url": "https://proceedings.mlsys.org/paper_files/paper/2023/file/3e3eec95971350490e37a076fdc100ad-Paper-mlsys2023.pdf",
+    "sha256": "c6f5467ee14904489a9d4b41a2b647e27498e7d3f1faf255aa9810a5edd599fb",
+    "bytes": 2956895
+  },
+  "DAG-CAI-DR.pdf": {
+    "local_source": "NeurIPS-2025-reinforcement-learning-for-one-shot-dag-scheduling-with-comparability-identification-and-dense-reward-Paper-Conference.pdf",
+    "sha256": "7796455d6d9696ed054ac8d9eed4797e2f05b5dfc424d53dac1a6c129c6edb5a",
+    "bytes": 965957
+  },
+  "BUDA.pdf": {
+    "local_source": "2022IWQoS.pdf",
+    "sha256": "712dd40c2f3887ccdd53d22e064223871916d48ceb49cc4ea4e80785a433d552",
+    "bytes": 766949
+  },
+  "MSLBL.pdf": {
+    "local_source": "MSLBL.pdf",
+    "sha256": "3ede228c8a6ab6404b6c068e14f6d0a96db4adffeb40ecea6a233147759a20d7",
+    "bytes": 1233994
+  },
+  "WeCAN_v2_latex.tar": {
+    "url": "https://arxiv.org/src/2603.23249v2",
+    "sha256": "8602fd904d2fa936c53cda7476c58d72d53305d7046ebd6ccccee06986cf5350",
+    "bytes": 10631172
+  }
+}

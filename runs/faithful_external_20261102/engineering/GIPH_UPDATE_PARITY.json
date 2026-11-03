@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "actual_author_finish_episode_executed": true,
+  "full_moves": 40,
+  "max_parameter_difference": 0.0,
+  "original_Adam_and_prefix_reward_baseline": true,
+  "no_formal_state_used": true
+}

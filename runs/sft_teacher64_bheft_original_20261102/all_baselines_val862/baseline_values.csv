@@ -1,0 +1,22 @@
+method,base_macro,config_mean,definition
+Teacher64+BHEFT-v2,0.831359167419895,0.8090847116288917,"Eleven fixed-HEFT seeds, 64 fresh proposals, retain legacy final if better/equal; SFT teacher."
+Teacher64 (legacy),0.8426115732787387,0.822097715050358,"Historical ten-rule, fixed-HEFT replay plus 64 local proposals."
+Portfolio11 (no search),0.8436294126646531,0.8232283533060047,Best of eleven candidate mappings replayed in fixed HEFT order; zero search proposals.
+GiPH / HEFT start / 2n,0.9206007840497212,0.9113217775336586,Existing adapted learned control: GiPH_HEFT_2n; historical selection preserved.
+MSLBL-adapted,0.961882161356955,0.9557797695556319,"Native rule: own task ordering and pool allocation, with shared physical constraints."
+BHEFT,0.9679010441074981,0.9444919395885717,Existing same-VAL reference; local physical-model adaptation where applicable.
+JoinLookahead,0.9930814271233309,0.9952544630400946,"Native rule: own task ordering and pool allocation, with shared physical constraints."
+HEFT,1.0,1.0,"Native rule: own task ordering and pool allocation, with shared physical constraints."
+PEFT-price0.1,1.0358572820610747,1.0401670695981151,"Native rule: own task ordering and pool allocation, with shared physical constraints."
+PEFT,1.0378187749509498,1.043072486152727,"Native rule: own task ordering and pool allocation, with shared physical constraints."
+PEFT-price0.3,1.0411035334410998,1.0407993765099348,"Native rule: own task ordering and pool allocation, with shared physical constraints."
+PEFT-price1,1.0863599216933686,1.0591213627211555,"Native rule: own task ordering and pool allocation, with shared physical constraints."
+GiPH / random start / 2n,1.1941165664257363,1.1329443667032992,Existing adapted learned control: GiPH_random_2n; historical selection preserved.
+Greedy,1.224140462978025,1.2378152664848934,Existing same-VAL reference; local physical-model adaptation where applicable.
+DAG-CAI-DR / BiGAT,1.2532812104719473,1.270035960829948,Existing adapted learned control: CAI_DR_BiGAT_visible_selected_epoch1; historical selection preserved.
+DAG-CAI-DR / Graphormer,1.2556892289662611,1.2709391896628166,Existing adapted learned control: CAI_DR_Graphormer_visible_selected_epoch7; historical selection preserved.
+PEFT-price3,1.3311987492572928,1.222250390599508,"Native rule: own task ordering and pool allocation, with shared physical constraints."
+PEFT-price10,1.8244023113146617,1.6082886346836942,"Native rule: own task ordering and pool allocation, with shared physical constraints."
+BUDA,2.8030019627881737,2.3844933167315303,Existing same-VAL reference; local physical-model adaptation where applicable.
+RandomMean5,2.9552902554560307,2.5666729713305627,Existing same-VAL reference; local physical-model adaptation where applicable.
+CostFirst,3.2428346693997963,2.759931907214375,"Native rule: own task ordering and pool allocation, with shared physical constraints."

@@ -1,0 +1,77 @@
+{
+  "reason": "User requests original GiPH 200-episode budget; stop only combined supervisor and GiPH queue, retain CAI queue and trainers",
+  "unix": 1793628993.0065851,
+  "stopped": [
+    {
+      "pid": 7477,
+      "command": [
+        "/opt/miniconda3/envs/dag_env/bin/python",
+        "-u",
+        "scripts/run_faithful_external_20261102.py"
+      ]
+    },
+    {
+      "pid": 7495,
+      "command": [
+        "/opt/miniconda3/envs/dag_env/bin/python",
+        "/Users/huangjiayi/Desktop/DAG-Scheduling-Research/transfer/dag-scheduling-llm-lab/scripts/run_faithful_external_20261102.py",
+        "--method-queue",
+        "giph"
+      ]
+    },
+    {
+      "pid": 7508,
+      "command": [
+        "/opt/miniconda3/envs/dag_env/bin/python",
+        "/Users/huangjiayi/Desktop/DAG-Scheduling-Research/transfer/dag-scheduling-llm-lab/scripts/train_faithful_external_20261102.py",
+        "--method",
+        "giph",
+        "--lr",
+        "0.01",
+        "--seed",
+        "11",
+        "--arm",
+        "giph_s11_lr0.01"
+      ]
+    },
+    {
+      "pid": 7509,
+      "command": [
+        "/opt/miniconda3/envs/dag_env/bin/python",
+        "/Users/huangjiayi/Desktop/DAG-Scheduling-Research/transfer/dag-scheduling-llm-lab/scripts/train_faithful_external_20261102.py",
+        "--method",
+        "giph",
+        "--lr",
+        "0.003",
+        "--seed",
+        "11",
+        "--arm",
+        "giph_s11_lr0.003"
+      ]
+    },
+    {
+      "pid": 7510,
+      "command": [
+        "/opt/miniconda3/envs/dag_env/bin/python",
+        "/Users/huangjiayi/Desktop/DAG-Scheduling-Research/transfer/dag-scheduling-llm-lab/scripts/train_faithful_external_20261102.py",
+        "--method",
+        "giph",
+        "--lr",
+        "0.001",
+        "--seed",
+        "11",
+        "--arm",
+        "giph_s11_lr0.001"
+      ]
+    }
+  ],
+  "cai_queue": {
+    "pid": 7494,
+    "command": [
+      "/opt/miniconda3/envs/dag_env/bin/python",
+      "/Users/huangjiayi/Desktop/DAG-Scheduling-Research/transfer/dag-scheduling-llm-lab/scripts/run_faithful_external_20261102.py",
+      "--method-queue",
+      "cai"
+    ]
+  }
+}

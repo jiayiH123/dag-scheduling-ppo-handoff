@@ -1,0 +1,18 @@
+[
+  {
+    "name": "cai",
+    "repo": "9erAlpenjaeger/DAG-CAI-DR",
+    "commit": "1a2aacc3fc44d8d8f1ef779488a39cab80abf991",
+    "url": "https://codeload.github.com/9erAlpenjaeger/DAG-CAI-DR/zip/1a2aacc3fc44d8d8f1ef779488a39cab80abf991",
+    "sha256": "20bbb84f76468e295a8648b36b93f6f2bdda9dc2bac65b1f5a634c996399d615",
+    "bytes": 9826170
+  },
+  {
+    "name": "giph",
+    "repo": "uidmice/placement-rl",
+    "commit": "427caced16988f0f7c22b7dcceea59fa472dbc34",
+    "url": "https://codeload.github.com/uidmice/placement-rl/zip/427caced16988f0f7c22b7dcceea59fa472dbc34",
+    "sha256": "37f0c55b59df4dbbe64d3fcb142acf5880b1ec582440356d8055b9b7da0812ea",
+    "bytes": 706456
+  }
+]

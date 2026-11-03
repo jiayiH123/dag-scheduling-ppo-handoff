@@ -1,0 +1,15 @@
+{
+  "status": "PASS",
+  "database_sha256": "d544e01797987f134e9c8420ba3cce0c59807ff1392c01370aed3477bcee522a",
+  "train_configs": 17261,
+  "train_actions_in_new_jobs": 0,
+  "inherited_original_labels": 17261,
+  "inherited_original_audit_sha256": "88c546e6c869447610acd23ff369ce9e91f7ba0381a2b75bf2a4e70aa02ba926",
+  "new_teacher_schedules_exactly_replayed_during_generation": true,
+  "no_cross_role_bases": true,
+  "no_cross_role_topologies": true,
+  "no_cross_role_physical_inputs": true,
+  "no_within_arm_duplicate_inputs": true,
+  "no_public_training_instances": true,
+  "scope": "Inherited original labels bound to v4 independent full audit; all new teacher schedules compared task-by-task to StateScore replay during generation; evaluation zero scores checked against HEFT"
+}

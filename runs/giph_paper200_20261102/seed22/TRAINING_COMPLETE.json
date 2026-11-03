@@ -1,0 +1,40 @@
+{
+  "episodes": 200,
+  "optimizer_updates": 200,
+  "moves": 25240,
+  "training_seconds": 2167.2056659935624,
+  "binding": {
+    "shared": {
+      "code": {
+        "scripts/train_faithful_external_20261102.py": "7d623da0a499eda82c4d58930aac9a2d0ec2e21061bef1e0d87c8dccddc2fcc6",
+        "daglab/faithful_external.py": "79fe325ddf9f78246aba8e18d44379c4d0bb7ebbbf41b8d26ce4623fda2d242d",
+        "daglab/faithful_external_data.py": "10fff8e1eb94ea2f3b40c61e11c9fc3a6fbf242b14029d6401ca94df4cd1a4e8",
+        "configs/faithful_external_20261102.json": "10f2b785906052b3970e9375859dab94aff573f5c1061dda418e696249070015",
+        "protocols/faithful_external_20261102.md": "7432fba62c34f703dc704aaab94a12c21c844f479f1cbafd6a0fa17d95ce488d",
+        "daglab/external_baseline_sim.py": "ed2e8824680590123012f4f23849fe2ed5fae7a34a9009912b114109c1213fba",
+        "vendor/prepared_sgs.py": "1212bd0b45fbccc825b064a377c512a0ab0bc86d6250323722a08733ee3c8f58",
+        "vendor/budget_core.py": "638a033a3b9ff2a36037a0a00d4491b1ca29bd61be55f9cd401debe7d5556467",
+        "vendor/legacy_comm_core.py": "8f11736d32401b8bb552717ca56a54c6c10e6395a99af5ad9a2fc7a0f9cc5955",
+        "runs/faithful_external_20261102/sources/cai/Graphormer/graphormer/modules/graphormer_graph_encoder_layer.py": "5eac6eb09f2fba7ea8008306f560476cd05beeab85c9a1940874bd3d307afa2e",
+        "runs/faithful_external_20261102/sources/cai/Graphormer/graphormer/modules/multihead_attention.py": "4a41a1826dd7605713e80db1840411e34b0010573d46c97a85ce90cc9f6c56ff",
+        "runs/faithful_external_20261102/sources/cai/Graphormer/graphormer/modules/__init__.py": "db4beba997a8c254e8c56aa7ed36d0456ef75360237198298ca135d1643a94b4",
+        "runs/faithful_external_20261102/sources/cai/Graphormer/graphormer/modules/graphormer_layers.py": "a15f06dcb2733a60c48a84103dcf54347cd307d906917d2d24ed75ff6d538fd5",
+        "runs/faithful_external_20261102/sources/cai/Graphormer/graphormer/modules/graphormer_graph_encoder.py": "29f9f33bd87a037514f417b174a7a6596764a4443a70b57ac82178807a71e520",
+        "runs/faithful_external_20261102/sources/cai/RL_models/utils.py": "3334398e241e12f40cedc099d2093d166f4669d50665edcf33109b85efcb4ea7",
+        "runs/faithful_external_20261102/sources/giph/placement_rl/placement_agent.py": "3f873bf10c664b506a2510fbbf9e637ba77ee107fdab76d8552b0cf90fdfcedf",
+        "runs/faithful_external_20261102/sources/giph/placement_rl/primative_nn.py": "5bcd9f367f318c0f15d723b388566c7600c704cca1790b01320129d67dbfeb1a",
+        "runs/faithful_external_20261102/sources/giph/env/program.py": "60031d22c2cfe8d6eb7e0a1768e4d271d740d8862fdcbddc153dadc8bcd56c28"
+      },
+      "input_audit_sha256": "644944637f9075e9c3c257202fbe02a2043b35e97c0f54e1ae347cb02bba3397",
+      "engineering_sha256": "9bd0187bd514c4be3c8b8c1e22df5239f1aed5b1a30a430c5e2e588ebc5efcd8",
+      "CAI_resume_sha256": "2d98a6650fa5614d74147cbd25c1426eb9bc45ce459a538191ecee6a32592a79",
+      "GiPH_update_parity_sha256": "65129172c7ce51f1519ab9d5ae384e92509a7caf59e818bceb8b212018752fe1",
+      "feature_range_sha256": "4f457e3be9a5d75a4cc8b89d95af24c8234e5cb60f90af9e917b9f74e3a90ef5"
+    },
+    "replacement": {
+      "scripts/run_giph_paper200_20261102.py": "8d835b2627a7fe0d1c7208c504ae7ba328a22b5599815aa3fd03fc89f42e4086",
+      "configs/giph_paper200_20261102.json": "824b21cd5151d9c85fdfb8409a5e400fac24c2686aca2266087d6d1c6b6dde63",
+      "protocols/giph_paper200_20261102.md": "8a4f8ca05e38534eb62773d5845bfce3149f586ae86cec8ab19e9125f68bf615"
+    }
+  }
+}

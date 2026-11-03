@@ -1,0 +1,9 @@
+{
+  "status": "rendered",
+  "updated_unix": 1793614898.0359838,
+  "latest_curve_step": 7553,
+  "new_teacher_C_HEFT": 0.831359167419895,
+  "old_teacher_C_HEFT": 0.8426115732787387,
+  "training_source_and_checkpoint_bindings_unchanged": true,
+  "pdf_sha256": "bbc4959b5840962af7ae973b19585f1d7d4eeef64a52f9eaa7ac8b146b66c175"
+}

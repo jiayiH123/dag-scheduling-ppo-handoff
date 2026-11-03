@@ -1,0 +1,694 @@
+{
+  "status": "PASS",
+  "configs": 862,
+  "bases": 500,
+  "evaluations": 77,
+  "steps": [
+    0,
+    100,
+    200,
+    300,
+    400,
+    500,
+    600,
+    700,
+    800,
+    900,
+    1000,
+    1100,
+    1200,
+    1300,
+    1400,
+    1500,
+    1600,
+    1700,
+    1800,
+    1900,
+    2000,
+    2100,
+    2200,
+    2300,
+    2400,
+    2500,
+    2600,
+    2700,
+    2800,
+    2900,
+    3000,
+    3100,
+    3200,
+    3300,
+    3400,
+    3500,
+    3600,
+    3700,
+    3800,
+    3900,
+    4000,
+    4100,
+    4200,
+    4300,
+    4400,
+    4500,
+    4600,
+    4700,
+    4800,
+    4900,
+    5000,
+    5100,
+    5200,
+    5300,
+    5400,
+    5500,
+    5600,
+    5700,
+    5800,
+    5900,
+    6000,
+    6100,
+    6200,
+    6300,
+    6400,
+    6500,
+    6600,
+    6700,
+    6800,
+    6900,
+    7000,
+    7100,
+    7200,
+    7300,
+    7400,
+    7500,
+    7553
+  ],
+  "baselines": [
+    {
+      "method": "HEFT",
+      "base_macro": 1.0,
+      "config_mean": 1.0,
+      "definition": "Native rule: own task ordering and pool allocation, with shared physical constraints."
+    },
+    {
+      "method": "PEFT",
+      "base_macro": 1.0378187749509498,
+      "config_mean": 1.043072486152727,
+      "definition": "Native rule: own task ordering and pool allocation, with shared physical constraints."
+    },
+    {
+      "method": "JoinLookahead",
+      "base_macro": 0.9930814271233309,
+      "config_mean": 0.9952544630400946,
+      "definition": "Native rule: own task ordering and pool allocation, with shared physical constraints."
+    },
+    {
+      "method": "CostFirst",
+      "base_macro": 3.2428346693997963,
+      "config_mean": 2.759931907214375,
+      "definition": "Native rule: own task ordering and pool allocation, with shared physical constraints."
+    },
+    {
+      "method": "MSLBL-adapted",
+      "base_macro": 0.961882161356955,
+      "config_mean": 0.9557797695556319,
+      "definition": "Native rule: own task ordering and pool allocation, with shared physical constraints."
+    },
+    {
+      "method": "PEFT-price0.1",
+      "base_macro": 1.0358572820610747,
+      "config_mean": 1.0401670695981151,
+      "definition": "Native rule: own task ordering and pool allocation, with shared physical constraints."
+    },
+    {
+      "method": "PEFT-price0.3",
+      "base_macro": 1.0411035334410998,
+      "config_mean": 1.0407993765099348,
+      "definition": "Native rule: own task ordering and pool allocation, with shared physical constraints."
+    },
+    {
+      "method": "PEFT-price1",
+      "base_macro": 1.0863599216933686,
+      "config_mean": 1.0591213627211555,
+      "definition": "Native rule: own task ordering and pool allocation, with shared physical constraints."
+    },
+    {
+      "method": "PEFT-price3",
+      "base_macro": 1.3311987492572928,
+      "config_mean": 1.222250390599508,
+      "definition": "Native rule: own task ordering and pool allocation, with shared physical constraints."
+    },
+    {
+      "method": "PEFT-price10",
+      "base_macro": 1.8244023113146617,
+      "config_mean": 1.6082886346836942,
+      "definition": "Native rule: own task ordering and pool allocation, with shared physical constraints."
+    },
+    {
+      "method": "BHEFT",
+      "base_macro": 0.9679010441074981,
+      "config_mean": 0.9444919395885717,
+      "definition": "Existing same-VAL reference; local physical-model adaptation where applicable."
+    },
+    {
+      "method": "Greedy",
+      "base_macro": 1.224140462978025,
+      "config_mean": 1.2378152664848934,
+      "definition": "Existing same-VAL reference; local physical-model adaptation where applicable."
+    },
+    {
+      "method": "RandomMean5",
+      "base_macro": 2.9552902554560307,
+      "config_mean": 2.5666729713305627,
+      "definition": "Existing same-VAL reference; local physical-model adaptation where applicable."
+    },
+    {
+      "method": "BUDA",
+      "base_macro": 2.8030019627881737,
+      "config_mean": 2.3844933167315303,
+      "definition": "Existing same-VAL reference; local physical-model adaptation where applicable."
+    },
+    {
+      "method": "Portfolio11 (no search)",
+      "base_macro": 0.8436294126646531,
+      "config_mean": 0.8232283533060047,
+      "definition": "Best of eleven candidate mappings replayed in fixed HEFT order; zero search proposals."
+    },
+    {
+      "method": "Teacher64 (legacy)",
+      "base_macro": 0.8426115732787387,
+      "config_mean": 0.822097715050358,
+      "definition": "Historical ten-rule, fixed-HEFT replay plus 64 local proposals."
+    },
+    {
+      "method": "Teacher64+BHEFT-v2",
+      "base_macro": 0.831359167419895,
+      "config_mean": 0.8090847116288917,
+      "definition": "Eleven fixed-HEFT seeds, 64 fresh proposals, retain legacy final if better/equal; SFT teacher."
+    },
+    {
+      "method": "DAG-CAI-DR / BiGAT",
+      "base_macro": 1.2532812104719473,
+      "config_mean": 1.270035960829948,
+      "definition": "Existing adapted learned control: CAI_DR_BiGAT_visible_selected_epoch1; historical selection preserved."
+    },
+    {
+      "method": "DAG-CAI-DR / Graphormer",
+      "base_macro": 1.2556892289662611,
+      "config_mean": 1.2709391896628166,
+      "definition": "Existing adapted learned control: CAI_DR_Graphormer_visible_selected_epoch7; historical selection preserved."
+    },
+    {
+      "method": "GiPH / HEFT start / 2n",
+      "base_macro": 0.9206007840497212,
+      "config_mean": 0.9113217775336586,
+      "definition": "Existing adapted learned control: GiPH_HEFT_2n; historical selection preserved."
+    },
+    {
+      "method": "GiPH / random start / 2n",
+      "base_macro": 1.1941165664257363,
+      "config_mean": 1.1329443667032992,
+      "definition": "Existing adapted learned control: GiPH_random_2n; historical selection preserved."
+    }
+  ],
+  "sft_curve": [
+    {
+      "step": 0,
+      "base_macro": 1.0,
+      "config_mean": 1.0
+    },
+    {
+      "step": 100,
+      "base_macro": 0.9576945315920609,
+      "config_mean": 0.948783895137511
+    },
+    {
+      "step": 200,
+      "base_macro": 0.9554384036057249,
+      "config_mean": 0.9481243906595449
+    },
+    {
+      "step": 300,
+      "base_macro": 0.9375033492093947,
+      "config_mean": 0.9229598844442672
+    },
+    {
+      "step": 400,
+      "base_macro": 0.923323210794904,
+      "config_mean": 0.9105351874808476
+    },
+    {
+      "step": 500,
+      "base_macro": 0.9244557051394316,
+      "config_mean": 0.9113664457873955
+    },
+    {
+      "step": 600,
+      "base_macro": 0.9161117993507747,
+      "config_mean": 0.9026136028764787
+    },
+    {
+      "step": 700,
+      "base_macro": 0.9373548650489485,
+      "config_mean": 0.9277097206578458
+    },
+    {
+      "step": 800,
+      "base_macro": 0.9079574321673253,
+      "config_mean": 0.8891484652630497
+    },
+    {
+      "step": 900,
+      "base_macro": 0.9055412088770023,
+      "config_mean": 0.8910498250843769
+    },
+    {
+      "step": 1000,
+      "base_macro": 0.9033153075399082,
+      "config_mean": 0.8877893115622746
+    },
+    {
+      "step": 1100,
+      "base_macro": 0.9058496772676514,
+      "config_mean": 0.8896518781168113
+    },
+    {
+      "step": 1200,
+      "base_macro": 0.921471050337985,
+      "config_mean": 0.9081384652278004
+    },
+    {
+      "step": 1300,
+      "base_macro": 0.9056952419535127,
+      "config_mean": 0.8897549555095807
+    },
+    {
+      "step": 1400,
+      "base_macro": 0.9081704436599535,
+      "config_mean": 0.8934158599503454
+    },
+    {
+      "step": 1500,
+      "base_macro": 0.9042275586752774,
+      "config_mean": 0.8894651887573852
+    },
+    {
+      "step": 1600,
+      "base_macro": 0.9093116240327486,
+      "config_mean": 0.8954201922969218
+    },
+    {
+      "step": 1700,
+      "base_macro": 0.8979764382932456,
+      "config_mean": 0.8819778964966316
+    },
+    {
+      "step": 1800,
+      "base_macro": 0.9024247509100459,
+      "config_mean": 0.8876548373222231
+    },
+    {
+      "step": 1900,
+      "base_macro": 0.902392654747163,
+      "config_mean": 0.8875537838014955
+    },
+    {
+      "step": 2000,
+      "base_macro": 0.8828562073938838,
+      "config_mean": 0.8638473076280959
+    },
+    {
+      "step": 2100,
+      "base_macro": 0.8939723903685116,
+      "config_mean": 0.8783629844158272
+    },
+    {
+      "step": 2200,
+      "base_macro": 0.888664642251866,
+      "config_mean": 0.8712410122125931
+    },
+    {
+      "step": 2300,
+      "base_macro": 0.8841258281452659,
+      "config_mean": 0.8660439741447935
+    },
+    {
+      "step": 2400,
+      "base_macro": 0.8828900381271232,
+      "config_mean": 0.8646357354735771
+    },
+    {
+      "step": 2500,
+      "base_macro": 0.8917220988069333,
+      "config_mean": 0.8744461636823718
+    },
+    {
+      "step": 2600,
+      "base_macro": 0.9051868222875603,
+      "config_mean": 0.8905246968644489
+    },
+    {
+      "step": 2700,
+      "base_macro": 0.894234337177903,
+      "config_mean": 0.8784610044570532
+    },
+    {
+      "step": 2800,
+      "base_macro": 0.9494828781214661,
+      "config_mean": 0.932870826171893
+    },
+    {
+      "step": 2900,
+      "base_macro": 0.8875754775977501,
+      "config_mean": 0.8688495230924682
+    },
+    {
+      "step": 3000,
+      "base_macro": 0.8785219420284883,
+      "config_mean": 0.8600048890421352
+    },
+    {
+      "step": 3100,
+      "base_macro": 0.8963326082621611,
+      "config_mean": 0.8808347688286624
+    },
+    {
+      "step": 3200,
+      "base_macro": 0.8826637171578939,
+      "config_mean": 0.864055154885538
+    },
+    {
+      "step": 3300,
+      "base_macro": 0.893951077270811,
+      "config_mean": 0.8767170938024297
+    },
+    {
+      "step": 3400,
+      "base_macro": 0.885599377487132,
+      "config_mean": 0.8692692864202853
+    },
+    {
+      "step": 3500,
+      "base_macro": 0.8998600022812162,
+      "config_mean": 0.8851084509124555
+    },
+    {
+      "step": 3600,
+      "base_macro": 0.8852913858873048,
+      "config_mean": 0.8688180139716548
+    },
+    {
+      "step": 3700,
+      "base_macro": 0.8906787622548876,
+      "config_mean": 0.8739119873340788
+    },
+    {
+      "step": 3800,
+      "base_macro": 0.8817142775717675,
+      "config_mean": 0.8644335510398102
+    },
+    {
+      "step": 3900,
+      "base_macro": 0.8964030664193423,
+      "config_mean": 0.8810246591572131
+    },
+    {
+      "step": 4000,
+      "base_macro": 0.8938504132186215,
+      "config_mean": 0.8786800892582861
+    },
+    {
+      "step": 4100,
+      "base_macro": 0.8835724147633007,
+      "config_mean": 0.8665642427589997
+    },
+    {
+      "step": 4200,
+      "base_macro": 0.8812392801901696,
+      "config_mean": 0.8631926997756012
+    },
+    {
+      "step": 4300,
+      "base_macro": 0.8772881044959897,
+      "config_mean": 0.858809055633175
+    },
+    {
+      "step": 4400,
+      "base_macro": 0.88003438017556,
+      "config_mean": 0.8627235288276015
+    },
+    {
+      "step": 4500,
+      "base_macro": 0.8844058232385055,
+      "config_mean": 0.8680381187571661
+    },
+    {
+      "step": 4600,
+      "base_macro": 0.9020286569612649,
+      "config_mean": 0.8881710435175372
+    },
+    {
+      "step": 4700,
+      "base_macro": 0.8820095634706231,
+      "config_mean": 0.8646626004607125
+    },
+    {
+      "step": 4800,
+      "base_macro": 0.8898348773544033,
+      "config_mean": 0.8730761118557945
+    },
+    {
+      "step": 4900,
+      "base_macro": 0.8831964978980359,
+      "config_mean": 0.8659383606749169
+    },
+    {
+      "step": 5000,
+      "base_macro": 0.8838234735022572,
+      "config_mean": 0.867149206491617
+    },
+    {
+      "step": 5100,
+      "base_macro": 0.8801977010302185,
+      "config_mean": 0.8611545382018286
+    },
+    {
+      "step": 5200,
+      "base_macro": 0.8888952050703998,
+      "config_mean": 0.8720338107259775
+    },
+    {
+      "step": 5300,
+      "base_macro": 0.8751016699488321,
+      "config_mean": 0.8562767201192311
+    },
+    {
+      "step": 5400,
+      "base_macro": 0.8704019713536347,
+      "config_mean": 0.8513858386880193
+    },
+    {
+      "step": 5500,
+      "base_macro": 0.8788718559232047,
+      "config_mean": 0.8613781321877416
+    },
+    {
+      "step": 5600,
+      "base_macro": 0.8920053709808344,
+      "config_mean": 0.8770949644510441
+    },
+    {
+      "step": 5700,
+      "base_macro": 0.8847952027413162,
+      "config_mean": 0.8673731774270801
+    },
+    {
+      "step": 5800,
+      "base_macro": 0.884887482296522,
+      "config_mean": 0.8683772854220936
+    },
+    {
+      "step": 5900,
+      "base_macro": 0.8915689012608491,
+      "config_mean": 0.8741645940422524
+    },
+    {
+      "step": 6000,
+      "base_macro": 0.8805903960503882,
+      "config_mean": 0.8634801603984754
+    },
+    {
+      "step": 6100,
+      "base_macro": 0.8880998620002283,
+      "config_mean": 0.8724156580511607
+    },
+    {
+      "step": 6200,
+      "base_macro": 0.8880984612527953,
+      "config_mean": 0.8718093348973883
+    },
+    {
+      "step": 6300,
+      "base_macro": 0.877003140462693,
+      "config_mean": 0.859008091424648
+    },
+    {
+      "step": 6400,
+      "base_macro": 0.8823465069956639,
+      "config_mean": 0.8651144440198039
+    },
+    {
+      "step": 6500,
+      "base_macro": 0.8856379050100275,
+      "config_mean": 0.8693842055883261
+    },
+    {
+      "step": 6600,
+      "base_macro": 0.8769945235142996,
+      "config_mean": 0.8590015857490902
+    },
+    {
+      "step": 6700,
+      "base_macro": 0.8842374449125026,
+      "config_mean": 0.8675880279457566
+    },
+    {
+      "step": 6800,
+      "base_macro": 0.882860350539821,
+      "config_mean": 0.865905039637981
+    },
+    {
+      "step": 6900,
+      "base_macro": 0.8793884513689678,
+      "config_mean": 0.8623130524429113
+    },
+    {
+      "step": 7000,
+      "base_macro": 0.8813949103803129,
+      "config_mean": 0.863092815794307
+    },
+    {
+      "step": 7100,
+      "base_macro": 0.8824509274320971,
+      "config_mean": 0.8663773258287831
+    },
+    {
+      "step": 7200,
+      "base_macro": 0.8800201946115646,
+      "config_mean": 0.8617617226442261
+    },
+    {
+      "step": 7300,
+      "base_macro": 0.8857573515941787,
+      "config_mean": 0.8687780943674981
+    },
+    {
+      "step": 7400,
+      "base_macro": 0.8688115452353687,
+      "config_mean": 0.8494405093065301
+    },
+    {
+      "step": 7500,
+      "base_macro": 0.8819639164957277,
+      "config_mean": 0.8651562301555983
+    },
+    {
+      "step": 7553,
+      "base_macro": 0.8661899379000059,
+      "config_mean": 0.8469482894150289
+    }
+  ],
+  "metric": "Per-case C/HEFT; average within each base DAG, then average over 500 DAGs.",
+  "no_smoothing": true,
+  "no_new_training": true,
+  "no_new_inference": true,
+  "source_sha256": {
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_curve.json": "2ed7a135c9676127efc5e1d98210c743ef0d0f727467419e0d0a300a61e97a8d",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_00000.json.gz": "b88f4780f3d63b5d0954643d71e11f2e42bcec3e79f14a9688839b2f161ebb89",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_00100.json.gz": "d0c8ca4ce324e5b36933ddfcc54ae896d4cb6165e7533427aac9322b2e2ed7e0",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_00200.json.gz": "d8151be3ff5016b0a0533d7573e670bdf05b1629be2832f72f5f3646b8a0ca4b",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_00300.json.gz": "2c007d36cfb3c6097aab85a03cde001c1b6d545f039557bd6a954ed9de546675",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_00400.json.gz": "aa6ab88ce32d1c8a460cec04d92b5c290b1511657cf5e6b6f3324c9080c1db6f",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_00500.json.gz": "fcfc02bbde242bd6767ef46fd9a0c8b64ae03855b49b6540db2a0c5e6478a638",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_00600.json.gz": "2fe4453687bda3f315667058fd2f65b0be703cb9d5664cb865d7837a09db4cd4",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_00700.json.gz": "3001f9a0000b06666036d3e33d15b66fbe87c28033c5744d85ae5fe308100202",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_00800.json.gz": "564c12ef7529d1da08ece1dc0cfd431db08ebf59113e62bf6713c46fd082e29e",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_00900.json.gz": "4c60bd97e8ce2e002ed130c5c80241c20af7926a92a1f8ca2bb5a849fcf60d79",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_01000.json.gz": "4f654e7e3b36876b44e43ea16766a07486942f9e7866a966edee894a68897a01",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_01100.json.gz": "da5e94cb368966f511744462a0ac42e24ae9eb9cfbb3832f76ea0cc2011f3ce3",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_01200.json.gz": "e979bf342091b6870cf1e6e1a6844ee52ac3e25c645363bd02726082f9cd1653",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_01300.json.gz": "5e92f0b5f37153b17e3ab5c4da327b043b828f9248494a5751d73c5828a1dc8c",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_01400.json.gz": "e414fe29d2a1e1a2c2438bfba06ff9a55aab23caf305f484efc6e4d42dae34ad",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_01500.json.gz": "f684d05244272123061a0cc51c7c5b932f7da2714cac55c05cb5af84c6b1b34e",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_01600.json.gz": "098f461af176c33f1f398072493350fb4a25ece114a548fe8bf69b7c671a8890",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_01700.json.gz": "754d9091b530edfab0f212d54fddb9574608921607ece53ecfdc167e56496fad",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_01800.json.gz": "0c845151988b4563b1610e8460d695c008749ae87b149d54405a10018d37d8f8",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_01900.json.gz": "a5ab65cba5b3f1323f2be2efa7ae20601663c9625d14005f967946cce3ef9023",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_02000.json.gz": "e2ff6fc614d055f217e6a52bccb73cc4f58701e6700d162fe7396efb2fe87420",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_02100.json.gz": "a52e53e67bf972c296fa9d59cd12700b00c93a0ad06273fc38e1839ff0fd21a0",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_02200.json.gz": "dc4cbe8e80481d2b6be6c804d294e257d70aac669697e36d0210265aa7df8032",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_02300.json.gz": "a3eaab18def1b485586da7276db7ef1ff31f49f996f34df09fd7ceb402423cc6",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_02400.json.gz": "db16c0201a81c3a03e8af79db08609919aa40d959fd7a2622e0a2495f87f937c",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_02500.json.gz": "851b8058ab825debd68511889b54fc0c1c02a47546da2bd078e5ba31546a2831",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_02600.json.gz": "9092f5551a40ea047bf14a8e9a47d09232af3872ac9513d5000c0621c29f3185",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_02700.json.gz": "b877f4a9ab96e036388a3f404fb10ecda6f3c7478e92b8fe75e9e15feb3146f4",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_02800.json.gz": "3f89bc13900f74ba6e4c8ba4af9933c687f5d118af2f7259c40f13e9d634beb5",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_02900.json.gz": "db00cbecdfc68f45a17f609524df2a03c566e9dbc6bdfc55fe1ff4809687ce4a",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_03000.json.gz": "60c7bd8dced7575db0166aebe0edd15ea113b2491c5a82473819d1045834f6f8",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_03100.json.gz": "f4255c37868868170a9bb83e46fd2663c2108009620abbc5e382b1d9f85c40d4",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_03200.json.gz": "af7d3cf49f1789cbf67fc6d5eaec80955a0df5b5b3960d34e9a85ceb030d5b09",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_03300.json.gz": "26df245c5d77e675a3ec70d43aecc50a3f8648837d7cfd2a671266b8cb46ebf5",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_03400.json.gz": "9cf4867332b2cf51ea7cd13bacb285a0dd95d46f112ae05a14fad819e271ada3",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_03500.json.gz": "e33a5fe69e003d1d6aa29a104d3963b1ab619f2fa099dd7dae3af98cb6faf30e",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_03600.json.gz": "94048018184bdb10d467ef941a58be4d857f1d40ca04cb2ef1e5586d0bc88f16",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_03700.json.gz": "590ee49526af5bcaca4e0cddd661446b47df9a8c28af7a71d577401695a91db7",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_03800.json.gz": "a3fbed92b6a1068aa25f02b19c9375e9b9da0d03d9129d839e0d3b8d3020896d",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_03900.json.gz": "aa0306fe600414cc8e73b43b55816cac42117ddc843bdfb9a0c14f4d4d1e73ad",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_04000.json.gz": "58157a663a74aeda85e36ce7925cb81a3bdbd5bc4695d311b8742c2970cfa642",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_04100.json.gz": "788a891c485502c39080e29a648cbb4dfcb556558b48b2172fe83ff6024ffc82",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_04200.json.gz": "7d0bd9b6b6ce71fb1828f8b39df76c1f988e953784cd8658271c59f74a8b80af",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_04300.json.gz": "7badad8a534339e7f9f50be14eae522b644cc999481711cdf96d7a349faba6a4",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_04400.json.gz": "bdfcd74fc90144cb8927f34fb92474b27a73a96f29482fb795366ccbd9870559",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_04500.json.gz": "5c4177158eda9db82537ae26c93ba1c787b388e39dba40e275a4fb10629f1a6e",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_04600.json.gz": "dd5aa8a02c10a37d3a5d4a3fa90539e8c2b2d3078e7104d384846661e95f93ed",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_04700.json.gz": "36621bada7db0d948bcd5819defbe25b865a54c4bb00c8606b6eb2b7c06d75c2",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_04800.json.gz": "6f91a35af5819ee44c6e000412f88f21c32e5ba463ea83e368601e9c8066df8f",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_04900.json.gz": "a33cc95a1646d5320da88bae2c84852425abd9ce4450aa2cbb976e9506fcd1d9",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_05000.json.gz": "8fd8be06520513ee3eb62de92be28f4f1ec2a34290608c8753022fa65ff2d50b",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_05100.json.gz": "4b612e179c053e860d38262a2cc3e60f11aaf9bd3f02a3f3746a0c172eeec8ea",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_05200.json.gz": "05eb38b167fe6b60d06168aac7c13f8eb5a00f68e78126389f07283349f87ce5",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_05300.json.gz": "b32678c7468467e2af62876b098cbdc1cf02a61cb3dcec9b609a25907a9a1048",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_05400.json.gz": "cc4a192cc0ac7819af7875448bbba39f9d6346172a0a5dfc2213ed8629427318",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_05500.json.gz": "c596d90a9b98430d887319449b10235377d2e969c11fa2e3e6cd3299df96229c",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_05600.json.gz": "510a9b481de5362c6c083835635561d519d56c6d43f76810b70d201d4635c079",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_05700.json.gz": "d23d1ec3d0400e479074d61e92efe261918adfb64683735a20dfd4b9b03ea349",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_05800.json.gz": "2ac8523c2b794ddaa5a9a68866671316527ad075573c0dec3bcc55af3b73dbe4",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_05900.json.gz": "7a233e19324d808de30b12d3344262e9de446813a6a9202ca0d3ee4eced55ab5",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_06000.json.gz": "0878918d1b3d9d0aef43e61164ae825d06a2899a0d5ae8cd40d439261ef6d01d",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_06100.json.gz": "ba1d0e847b8c92d7883b1dee0e0e8c6d93c05fb6ecd3282b4b1e32ab059bd63c",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_06200.json.gz": "7cb727a8a750af1aa6b8e48c991c91cdff2496f4b3b2f8f6ae2d101e7e4e8b7e",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_06300.json.gz": "fc64488b2d475d7fa4487452aedcf7c69aa257f4f95d1c645359420bd84fdff8",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_06400.json.gz": "8996f15b8e5dd77c2c5a15e73d0e3d4ea6fc7a8181b736948f1b220c9b54738f",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_06500.json.gz": "48ddfa5465c2f84d43a01b29fe53de92186432b1bbca391786b62340d4c7e877",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_06600.json.gz": "81296407a9787c857e78c87990ed964dc6c447cc486375df4e1fd1f1cc5b504d",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_06700.json.gz": "496354800b94ded4623582bd87659b2f7f7d097405faf54e737b41ca579af9f6",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_06800.json.gz": "30717e826fe2f68a0399b948c99de72411c9dc61ad7dc3cf124fad345cb4ef72",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_06900.json.gz": "92c5cff98ac2f54a04f5ad6b3971afe73fe8c05d3edc6133e43331d62bae6445",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_07000.json.gz": "bde480335bee9b011396856164db5d8c69da91bb190569a5599baa58846fc637",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_07100.json.gz": "72eb4b8a0001e35b2bf3193d09941fc435023fece29e34654320b3ef78833a61",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_07200.json.gz": "881ee4788f08fb0166c2fc247e20554ce65f60a40dc03b5a2d17aff293c13619",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_07300.json.gz": "8b6b0da81037a239624c201ee89d2f0f5e4c2294b186e83cf6cca6e05f38aacc",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_07400.json.gz": "4e2cd065817789ee4d002dae9aedaa6f1eaed9fa7f5a2f54e295835b72646584",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_07500.json.gz": "6a8f76bc2acee3c85ac3cef816bbdb55e6b24e4f1c21eb2fe002ddd5bdcfd8a7",
+    "runs/sft_teacher64_bheft_original_20261102/val_synthetic_val862_07553.json.gz": "92d7b275ade1931c3f40a0c24c20f8ddb7c5f976807cffdcd6085cdf09c10bfc",
+    "runs/teacher_search_ablation_ppo_20261102/final_analysis/TEN_RULES_NATIVE_AND_FIXED_VAL862.json": "eb2d53b49ee5c1fcbc7d4e86f441d3f5f2ff51b02aade35f4a6ba7312381c1ce",
+    "runs/teacher_search_ablation_ppo_20261102/no_search_teacher_val862/RESULTS.json": "65cf5bc415e36d776f75c663754bcbfa95430a508d2c1d09692c37e7d6a0454a",
+    "runs/sft_teacher64_bheft_original_20261102/new_teacher_val862/RESULTS.json": "99485ddf0e84c748ecf7861bbcef8073ef13829787e1903f28d03b33668ebc9f",
+    "runs/teacher_search_ablation_ppo_20261102/final_analysis/EXTERNAL_BASELINES_VAL862.json": "f6c48a8f9a6362af7af2b6f9d0274d77ce4838a281f87ad28e2c1b045fb795c5",
+    "runs/external_baselines_budget_visible_20261028/cai/epoch1_cases.jsonl": "d1e3c568b156ad0923a2bd3649cbc45a8f784add1c85c400536ef1d14a3a4a24",
+    "runs/external_baselines_budget_visible_20261028/cai/epoch7_cases.jsonl": "2bf14c49bf4baf63d9c980c48a3c9a9657c22882dff60eb36baaabbcce4b35c1",
+    "runs/external_baselines_budget_visible_20261028/graphormer/epoch7_cases.jsonl": "aca9fae5dbe976903646acf370cf50aaa0c8223d6c159874d20f0fdeca1dff71",
+    "runs/external_baselines_budget_visible_20261028/cai_sparse/epoch1_cases.jsonl": "5309164e8cf3e0cd17fcdf2fe993013268163f54c439244dacfdae3e88286c0b",
+    "runs/external_baselines_budget_visible_20261028/giph_fast_r1/cases.jsonl": "5874b78fe18166dd8f2331f627a2c10ef92cf2918ac40ea3e9afef908ed0c866"
+  },
+  "script_sha256": "2c2b8e714b48d386e6582bef78a43c4717f9ea207331ba8c419b7ec8b1a8f3a8"
+}

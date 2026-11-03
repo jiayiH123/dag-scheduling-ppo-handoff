@@ -1,0 +1,8 @@
+{
+  "status": "PASS",
+  "weights_bitwise": true,
+  "optimizer_bitwise": true,
+  "torch_RNG_replay": true,
+  "teacher_labels": false,
+  "formal_updates": false
+}

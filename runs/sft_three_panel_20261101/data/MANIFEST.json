@@ -1,0 +1,19 @@
+{
+  "status": "complete",
+  "binding": {
+    "scope": "af4ed9435097bf5f334489ff4f71cc00877e706dd50a95cbd5161503db4cf750",
+    "run_config": "f427c5421605a08fe78005be67e258bdd64f6fc7417ce82d8c8ff27047277aa7",
+    "scope_lock": "be10d13ded06cc26a91b2cb7c7a900b29b8d0b55618405b120565c8ecb60e46f",
+    "implementation": "fed9cd1f8f9e75b8d93e98f387a10800a1a01feed7d6d752b5f2c4632ad17aa4",
+    "wf_cache_manifest": "4a5fe4016734a7f66386f77d55a0ec3a516d61577aa32b0bec94dd1592fa7d93"
+  },
+  "counts": {
+    "parrot_pattern_templates": 498,
+    "synthetic_val862": 862
+  },
+  "database_sha256": "745c64c797f1969b111ae3e450139f91b13ed2134f471792ae67217f581c3f0d",
+  "teacher_training_labels": 0,
+  "baseline_reference_only": true,
+  "wf_configs_reused": 960,
+  "training_cache_reused": 17261
+}

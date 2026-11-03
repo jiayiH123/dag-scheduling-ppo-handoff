@@ -1,0 +1,22 @@
+{
+  "status": "PASS",
+  "binding": {
+    "config": "81603efff38a83929ff8f7d40027252eb0cfe2fc56592184308745e77c654157",
+    "teacher_manifest": "cb5f672f405029b09f682dc5439200230dc2f061f9b7f115e2bc3b69afb14715",
+    "teacher_database": "34d770fe4e217061073ee96ac9863ab13170808ab07cf92f14a5edd1a40ccd15",
+    "validation_database": "745c64c797f1969b111ae3e450139f91b13ed2134f471792ae67217f581c3f0d",
+    "implementation": "ca318d9cd6a8c461d24cbd8a3ad0f478f787e6ebd051ec90404c6e1f32fab3e7",
+    "physical_training_helpers": "2f634edd97384cff77fd959ff593b7426d681ff90f4d3d19111537547fc00fae",
+    "epoch_update": "95674fb9157a062771301ca9a8ecd93de5a04af7590a16703cd80332eaa58495",
+    "inherited_trainer": "f0723ba4741791e36ac8a13376b10387ab17ee01b7a4015c5b9cc078487be2d1",
+    "helpers": "756c08f99a9d939b2df173f7913d5898e2226aa295e582a12295e1bd99c948ee",
+    "sampler": "8e28d106a065c8a4c90eb93704674a876b872971d170de3e1422289f1e7d836a",
+    "model": "eb3232135bc7ca3cfcc4649a489b10e5cf97f771441add290f8ab156ad038e84",
+    "decoder": "22c3004e41187c7617c65846034340ec7c255c8a32026cfb390edf48151cb130",
+    "plotting": "d2eaae188cb04b332576477e8ff8b8d1daae5b05553505b4ceb68e2dffad1c97"
+  },
+  "exact_resume": true,
+  "independent_CE_gradient_and_teacher_replay": true,
+  "initial_weights_and_epoch_plan_match_old_S0": true,
+  "quality_conclusion": false
+}

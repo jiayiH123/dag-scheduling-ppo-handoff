@@ -1,0 +1,11 @@
+{
+  "pid": 96633,
+  "command": [
+    "/opt/miniconda3/envs/dag-research/bin/python",
+    "-u",
+    "scripts/evaluate_teacher64_bheft_val862_20261102.py"
+  ],
+  "started_unix": 1793613298.792793,
+  "protocol_commit": "0a6c2c9",
+  "implementation_commit": "a1b3dfa8dc7f1605bf99b5b080a8ed245deb3bc5"
+}

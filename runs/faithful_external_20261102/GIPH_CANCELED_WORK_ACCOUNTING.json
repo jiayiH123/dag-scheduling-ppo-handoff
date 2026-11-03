@@ -1,0 +1,20 @@
+{
+  "reason": "User requested original200episodes; preserved, not reused",
+  "arms": [
+    {
+      "arm": "giph_s11_lr0.001",
+      "formal_training_episodes": 0,
+      "partial_validation_cases": 168
+    },
+    {
+      "arm": "giph_s11_lr0.003",
+      "formal_training_episodes": 0,
+      "partial_validation_cases": 168
+    },
+    {
+      "arm": "giph_s11_lr0.01",
+      "formal_training_episodes": 0,
+      "partial_validation_cases": 168
+    }
+  ]
+}

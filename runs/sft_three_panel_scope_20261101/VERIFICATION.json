@@ -1,0 +1,18 @@
+{
+  "status": "PASS",
+  "config_sha256": "af4ed9435097bf5f334489ff4f71cc00877e706dd50a95cbd5161503db4cf750",
+  "data_scope_lock_sha256": "be10d13ded06cc26a91b2cb7c7a900b29b8d0b55618405b120565c8ecb60e46f",
+  "counts": {
+    "train": 17261,
+    "synthetic_val": 862,
+    "wf_val": 960,
+    "template_val": 498
+  },
+  "val_membership_keys_locked": true,
+  "wf_groups": 27,
+  "wf_scope_pruning_performed": false,
+  "cached_synthetic_train_counts_verified": true,
+  "original_unique_view_audit_matches_manifest": true,
+  "training_started": false,
+  "neural_model_evaluations": 0
+}

@@ -1,0 +1,23 @@
+{
+  "run": "runs/giph_paper200_20261102",
+  "protocol": "protocols/giph_paper200_20261102.md",
+  "training_pool_configs": 17261,
+  "episodes_per_seed": 200,
+  "sampling": "uniform_with_replacement_from_TRAIN_configurations",
+  "seeds": [11, 22, 33],
+  "learning_rate": 0.01,
+  "gamma": 0.97,
+  "moves_per_task": 2,
+  "embedding": 10,
+  "policy_hidden": 16,
+  "native_node_features": 4,
+  "native_edge_features": 4,
+  "added_physical_node_features": 3,
+  "validation_configs": 862,
+  "evaluation": "terminal_checkpoint_only_random_and_HEFT_start",
+  "evaluation_action_seed": 101,
+  "hyperparameter_search": false,
+  "extra_sampling_repetitions": false,
+  "maximum_restarts": 2,
+  "automatic_extension": false
+}

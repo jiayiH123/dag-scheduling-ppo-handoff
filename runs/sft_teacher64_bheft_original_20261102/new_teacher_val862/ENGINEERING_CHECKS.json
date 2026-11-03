@@ -1,0 +1,79 @@
+{
+  "status": "PASS",
+  "configs": 12,
+  "rows": [
+    {
+      "key": "train_simv1_train_00022_b0",
+      "n": 20,
+      "k": 3,
+      "exact_new_training_teacher_mapping_and_objective": true
+    },
+    {
+      "key": "train_simv1_train_00001_b0",
+      "n": 20,
+      "k": 4,
+      "exact_new_training_teacher_mapping_and_objective": true
+    },
+    {
+      "key": "train_simv1_train_00000_b0",
+      "n": 20,
+      "k": 6,
+      "exact_new_training_teacher_mapping_and_objective": true
+    },
+    {
+      "key": "train_simv1_train_00006_b0",
+      "n": 40,
+      "k": 3,
+      "exact_new_training_teacher_mapping_and_objective": true
+    },
+    {
+      "key": "train_simv1_train_00009_b0",
+      "n": 40,
+      "k": 4,
+      "exact_new_training_teacher_mapping_and_objective": true
+    },
+    {
+      "key": "train_simv1_train_00005_b0",
+      "n": 40,
+      "k": 6,
+      "exact_new_training_teacher_mapping_and_objective": true
+    },
+    {
+      "key": "train_simv1_train_00010_b0",
+      "n": 80,
+      "k": 3,
+      "exact_new_training_teacher_mapping_and_objective": true
+    },
+    {
+      "key": "train_simv1_train_00030_b0",
+      "n": 80,
+      "k": 4,
+      "exact_new_training_teacher_mapping_and_objective": true
+    },
+    {
+      "key": "train_simv1_train_00011_b0",
+      "n": 80,
+      "k": 6,
+      "exact_new_training_teacher_mapping_and_objective": true
+    },
+    {
+      "key": "train_simv1_train_00015_b0",
+      "n": 120,
+      "k": 3,
+      "exact_new_training_teacher_mapping_and_objective": true
+    },
+    {
+      "key": "train_simv1_train_00038_b0",
+      "n": 120,
+      "k": 4,
+      "exact_new_training_teacher_mapping_and_objective": true
+    },
+    {
+      "key": "train_simv1_train_00016_b0",
+      "n": 120,
+      "k": 6,
+      "exact_new_training_teacher_mapping_and_objective": true
+    }
+  ],
+  "optimizer_updates": 0
+}

@@ -1,0 +1,9 @@
+matplotlib=3.5.1
+networkx=2.5
+numpy=1.19
+python=3.8.10
+simpy=4.0.1
+pytorch
+requests
+tqdm
+dgl

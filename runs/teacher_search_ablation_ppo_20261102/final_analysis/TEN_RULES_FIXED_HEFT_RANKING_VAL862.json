@@ -1,0 +1,52 @@
+[
+  {
+    "method": "MSLBL-adapted",
+    "base_macro_C_HEFT": 0.961882161356955,
+    "config_mean_C_HEFT": 0.955779769555634
+  },
+  {
+    "method": "JoinLookahead",
+    "base_macro_C_HEFT": 0.9930814271233309,
+    "config_mean_C_HEFT": 0.9952544630400952
+  },
+  {
+    "method": "HEFT",
+    "base_macro_C_HEFT": 1.0,
+    "config_mean_C_HEFT": 1.0
+  },
+  {
+    "method": "PEFT-price0.1",
+    "base_macro_C_HEFT": 1.0321702136790027,
+    "config_mean_C_HEFT": 1.0327045815084448
+  },
+  {
+    "method": "PEFT",
+    "base_macro_C_HEFT": 1.0349769536727493,
+    "config_mean_C_HEFT": 1.0360561583614636
+  },
+  {
+    "method": "PEFT-price0.3",
+    "base_macro_C_HEFT": 1.0386645903757998,
+    "config_mean_C_HEFT": 1.0347308253303074
+  },
+  {
+    "method": "PEFT-price1",
+    "base_macro_C_HEFT": 1.0850731801434874,
+    "config_mean_C_HEFT": 1.0551123672821965
+  },
+  {
+    "method": "PEFT-price3",
+    "base_macro_C_HEFT": 1.32920494303392,
+    "config_mean_C_HEFT": 1.2184026095056748
+  },
+  {
+    "method": "PEFT-price10",
+    "base_macro_C_HEFT": 1.8256787441650864,
+    "config_mean_C_HEFT": 1.608170916956935
+  },
+  {
+    "method": "CostFirst",
+    "base_macro_C_HEFT": 3.2428346693997963,
+    "config_mean_C_HEFT": 2.759931907214374
+  }
+]

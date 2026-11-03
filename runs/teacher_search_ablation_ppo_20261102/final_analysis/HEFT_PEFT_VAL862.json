@@ -1,0 +1,9 @@
+{
+  "configs": 862,
+  "bases": 500,
+  "PEFT_C_HEFT_base_macro": 1.0378187749509498,
+  "PEFT_C_HEFT_config_mean": 1.0430724861527274,
+  "PEFT_faster": 195,
+  "equal": 243,
+  "HEFT_faster": 424
+}

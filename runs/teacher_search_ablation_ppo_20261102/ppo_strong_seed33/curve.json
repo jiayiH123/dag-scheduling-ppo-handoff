@@ -1,0 +1,167 @@
+[
+  {
+    "actor_updates": 0,
+    "actor_update_slots": 0,
+    "collection": 0,
+    "reason": "SFT_start",
+    "C_HEFT_base_macro": 0.8661899379000059,
+    "C_HEFT_config_mean": 0.8469482894150298,
+    "configs": 862,
+    "bases": 500,
+    "feasible": true
+  },
+  {
+    "actor_updates": 100,
+    "actor_update_slots": 100,
+    "collection": 13,
+    "reason": "100_actual_actor_updates",
+    "C_HEFT_base_macro": 0.8701704172931964,
+    "C_HEFT_config_mean": 0.8526501045208037,
+    "configs": 862,
+    "bases": 500,
+    "feasible": true
+  },
+  {
+    "actor_updates": 200,
+    "actor_update_slots": 200,
+    "collection": 25,
+    "reason": "100_actual_actor_updates",
+    "C_HEFT_base_macro": 0.8687534772114488,
+    "C_HEFT_config_mean": 0.8509339726971334,
+    "configs": 862,
+    "bases": 500,
+    "feasible": true
+  },
+  {
+    "actor_updates": 256,
+    "actor_update_slots": 256,
+    "collection": 32,
+    "reason": "historical_collection_grid",
+    "C_HEFT_base_macro": 0.8663786768897483,
+    "C_HEFT_config_mean": 0.847354085913913,
+    "configs": 862,
+    "bases": 500,
+    "feasible": true
+  },
+  {
+    "actor_updates": 300,
+    "actor_update_slots": 300,
+    "collection": 38,
+    "reason": "100_actual_actor_updates",
+    "C_HEFT_base_macro": 0.8675246076798183,
+    "C_HEFT_config_mean": 0.8483114584077925,
+    "configs": 862,
+    "bases": 500,
+    "feasible": true
+  },
+  {
+    "actor_updates": 400,
+    "actor_update_slots": 400,
+    "collection": 50,
+    "reason": "100_actual_actor_updates",
+    "C_HEFT_base_macro": 0.8714147048836299,
+    "C_HEFT_config_mean": 0.8529193868745102,
+    "configs": 862,
+    "bases": 500,
+    "feasible": true
+  },
+  {
+    "actor_updates": 500,
+    "actor_update_slots": 500,
+    "collection": 63,
+    "reason": "100_actual_actor_updates",
+    "C_HEFT_base_macro": 0.869083253870002,
+    "C_HEFT_config_mean": 0.8502126710099721,
+    "configs": 862,
+    "bases": 500,
+    "feasible": true
+  },
+  {
+    "actor_updates": 512,
+    "actor_update_slots": 512,
+    "collection": 64,
+    "reason": "historical_collection_grid",
+    "C_HEFT_base_macro": 0.8641146725603575,
+    "C_HEFT_config_mean": 0.8445316462059171,
+    "configs": 862,
+    "bases": 500,
+    "feasible": true
+  },
+  {
+    "actor_updates": 600,
+    "actor_update_slots": 600,
+    "collection": 75,
+    "reason": "100_actual_actor_updates",
+    "C_HEFT_base_macro": 0.8618053918980462,
+    "C_HEFT_config_mean": 0.8415327938064956,
+    "configs": 862,
+    "bases": 500,
+    "feasible": true
+  },
+  {
+    "actor_updates": 700,
+    "actor_update_slots": 700,
+    "collection": 88,
+    "reason": "100_actual_actor_updates",
+    "C_HEFT_base_macro": 0.8612704613641511,
+    "C_HEFT_config_mean": 0.8409660347166327,
+    "configs": 862,
+    "bases": 500,
+    "feasible": true
+  },
+  {
+    "actor_updates": 768,
+    "actor_update_slots": 768,
+    "collection": 96,
+    "reason": "historical_collection_grid",
+    "C_HEFT_base_macro": 0.8691138013869396,
+    "C_HEFT_config_mean": 0.8498466001984615,
+    "configs": 862,
+    "bases": 500,
+    "feasible": true
+  },
+  {
+    "actor_updates": 800,
+    "actor_update_slots": 800,
+    "collection": 100,
+    "reason": "100_actual_actor_updates",
+    "C_HEFT_base_macro": 0.8675396420373078,
+    "C_HEFT_config_mean": 0.8482622203344125,
+    "configs": 862,
+    "bases": 500,
+    "feasible": true
+  },
+  {
+    "actor_updates": 900,
+    "actor_update_slots": 900,
+    "collection": 113,
+    "reason": "100_actual_actor_updates",
+    "C_HEFT_base_macro": 0.8663660571342804,
+    "C_HEFT_config_mean": 0.8466222728686591,
+    "configs": 862,
+    "bases": 500,
+    "feasible": true
+  },
+  {
+    "actor_updates": 1000,
+    "actor_update_slots": 1000,
+    "collection": 125,
+    "reason": "100_actual_actor_updates",
+    "C_HEFT_base_macro": 0.8684504458113449,
+    "C_HEFT_config_mean": 0.8487773423206,
+    "configs": 862,
+    "bases": 500,
+    "feasible": true
+  },
+  {
+    "actor_updates": 1024,
+    "actor_update_slots": 1024,
+    "collection": 128,
+    "reason": "historical_collection_grid",
+    "C_HEFT_base_macro": 0.8664175747751605,
+    "C_HEFT_config_mean": 0.8467015708735068,
+    "configs": 862,
+    "bases": 500,
+    "feasible": true
+  }
+]

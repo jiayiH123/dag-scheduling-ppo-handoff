@@ -1,0 +1,11 @@
+{
+  "pid": 1607,
+  "command": [
+    "/opt/miniconda3/envs/dag-research/bin/python",
+    "-u",
+    "figures/gen_fig_sft_no_search_teacher_overlay_20261102.py",
+    "--watch"
+  ],
+  "started_unix": 1793618378.918966,
+  "stops_after_current_training": true
+}

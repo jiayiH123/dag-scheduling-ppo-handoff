@@ -1,0 +1,11 @@
+{
+  "status": "rendered",
+  "curve_steps": {
+    "strong": 7553,
+    "no_search": 7553
+  },
+  "C_HEFT_base_macro": 0.8436294126646531,
+  "pdf_sha256": "924bb367602859bcfb0a11b9e107f50cf3a34e0aeb6ffb0659261d26966aef21",
+  "training_bound_sources_unchanged": true,
+  "updated_unix": 1793620847.131565
+}

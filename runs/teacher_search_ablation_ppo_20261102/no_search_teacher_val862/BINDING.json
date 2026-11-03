@@ -1,0 +1,15 @@
+{
+  "validation_sha256": "745c64c797f1969b111ae3e450139f91b13ed2134f471792ae67217f581c3f0d",
+  "keys_sha256": "bca55b8a6400619b8e720c0b3fae31a95f6ea0a36a4fad7acbad66a2b1cf10c2",
+  "protocol": "2b738be3705c12afa6d416e0ffc73ecc82a90ba613d7f550926475d512322918",
+  "code": {
+    "scripts/evaluate_portfolio11_no_search_val862_20261102.py": "c5327e41453f8cc910a3e450537e34efdfb0841c243248cd456fcd037e93b22f",
+    "daglab/reference.py": "5e0ef84203543ffd325cc1d98ff0b4ebe961513f7266b2b90919e0a04c1ea92b",
+    "daglab/state_score.py": "22c3004e41187c7617c65846034340ec7c255c8a32026cfb390edf48151cb130",
+    "daglab/external_baseline_sim.py": "ed2e8824680590123012f4f23849fe2ed5fae7a34a9009912b114109c1213fba",
+    "vendor/search_controls.py": "e187c07924dea0687af4095070cb6249410aef4ec63766f7d904bbe247d9e5a0",
+    "vendor/budget_core.py": "638a033a3b9ff2a36037a0a00d4491b1ca29bd61be55f9cd401debe7d5556467",
+    "vendor/prepared_sgs.py": "1212bd0b45fbccc825b064a377c512a0ab0bc86d6250323722a08733ee3c8f58",
+    "vendor/cached_budget_decoder.py": "2694e0d3561e3798e1a882ac7a66f3083f576b42eb2d985f4d258e0196d5e38b"
+  }
+}
